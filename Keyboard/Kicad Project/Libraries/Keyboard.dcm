@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP .1uF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP C104
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP DLED
+K LED
+$ENDCMP
+#
+$CMP DTA214Y
+D Digital Transistor, 10k/47k, PNP Transistor
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP MMUN2133LT1G
+D Digital Transistor (BRT) 4.7k/47k PNP Transistor with Monolithic Bias
+K Digital Transistor
+$ENDCMP
+#
+#End Doc Library

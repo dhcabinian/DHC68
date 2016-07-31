@@ -1,0 +1,3123 @@
+Cmp-Mod V01 Created by PcbNew   date = 6/29/2016 12:20:33 AM
+
+BeginCmp
+TimeStamp = 5763A7B7
+Path = /575CF37C/5781294A
+Reference = S37;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BACC
+Path = /575CF37C/578128FD
+Reference = S65;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_625H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A808
+Path = /575CF37C/57812985
+Reference = S46;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BAE4
+Path = /575CF37C/578128FA
+Reference = S68;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_125H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BAD4
+Path = /575CF37C/578128EF
+Reference = S66;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_125H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BAC4
+Path = /575CF37C/578128EE
+Reference = S64;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_125H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2C7
+Path = /577EF6FE/57696F93
+Reference = C104-66;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A673
+Path = /575CF37C/578128E8
+Reference = S1;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 57639E34
+Path = /576A8364
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = GH60Foots:100nC;
+EndCmp
+
+BeginCmp
+TimeStamp = 57696B05
+Path = /5780BB16/576903B9
+Reference = LED95;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57696AF7
+Path = /5780BB16/576903BF
+Reference = C104-95;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BAA4
+Path = /575CF37C/578128EB
+Reference = S59;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_275H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BAB4
+Path = /575CF37C/578128EC
+Reference = S62;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_125H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BABC
+Path = /575CF37C/578128ED
+Reference = S63;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_125H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BADC
+Path = /575CF37C/578128F0
+Reference = S67;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_125H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA74
+Path = /575CF37C/57812901
+Reference = S45;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_225H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA7C
+Path = /575CF37C/57812900
+Reference = S48;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_225H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA54
+Path = /575CF37C/57812922
+Reference = S17;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_150H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6C4
+Path = /575CF37C/5781291A
+Reference = S10;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6A9
+Path = /575CF37C/57812914
+Reference = S7;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6A0
+Path = /575CF37C/57812912
+Reference = S6;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6B2
+Path = /575CF37C/57812916
+Reference = S8;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6CD
+Path = /575CF37C/5781291C
+Reference = S11;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6D6
+Path = /575CF37C/5781291E
+Reference = S12;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6DF
+Path = /575CF37C/57812920
+Reference = S13;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6F1
+Path = /575CF37C/5781297F
+Reference = S15;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A6FA
+Path = /575CF37C/5781391B
+Reference = S16;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A70C
+Path = /575CF37C/57812924
+Reference = S18;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A715
+Path = /575CF37C/57812926
+Reference = S19;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A71E
+Path = /575CF37C/57812928
+Reference = S20;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A727
+Path = /575CF37C/5781292A
+Reference = S21;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A730
+Path = /575CF37C/5781292C
+Reference = S22;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A739
+Path = /575CF37C/5781292E
+Reference = S23;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A742
+Path = /575CF37C/57812930
+Reference = S24;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A74B
+Path = /575CF37C/57812932
+Reference = S25;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A754
+Path = /575CF37C/57812934
+Reference = S26;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A766
+Path = /575CF37C/57812938
+Reference = S28;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A76F
+Path = /575CF37C/5781293A
+Reference = S29;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A781
+Path = /575CF37C/57812981
+Reference = S31;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A78A
+Path = /575CF37C/57812983
+Reference = S32;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A79C
+Path = /575CF37C/5781293E
+Reference = S34;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7A5
+Path = /575CF37C/57812942
+Reference = S35;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7AE
+Path = /575CF37C/57812946
+Reference = S36;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7C0
+Path = /575CF37C/5781294E
+Reference = S38;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7C9
+Path = /575CF37C/57812952
+Reference = S39;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7D2
+Path = /575CF37C/57812956
+Reference = S40;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7DB
+Path = /575CF37C/5781295A
+Reference = S41;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7ED
+Path = /575CF37C/57812962
+Reference = S43;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7F6
+Path = /575CF37C/57812966
+Reference = S44;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A823
+Path = /575CF37C/57812944
+Reference = S49;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A82C
+Path = /575CF37C/57812948
+Reference = S50;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A835
+Path = /575CF37C/5781294C
+Reference = S51;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A83E
+Path = /575CF37C/57812950
+Reference = S52;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A850
+Path = /575CF37C/57812958
+Reference = S54;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A859
+Path = /575CF37C/5781295C
+Reference = S55;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A8D7
+Path = /575CF37C/578128FB
+Reference = S69;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A8E0
+Path = /575CF37C/5781297B
+Reference = S70;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A8E9
+Path = /575CF37C/5781297D
+Reference = S71;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA24
+Path = /575CF37C/5781290A
+Reference = S2;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA2C
+Path = /575CF37C/5781290C
+Reference = S3;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA34
+Path = /575CF37C/5781290E
+Reference = S4;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA3C
+Path = /575CF37C/57812910
+Reference = S5;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA44
+Path = /575CF37C/57812918
+Reference = S9;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA5C
+Path = /575CF37C/57812936
+Reference = S27;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA84
+Path = /575CF37C/57812954
+Reference = S53;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA8C
+Path = /575CF37C/57812960
+Reference = S56;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA94
+Path = /575CF37C/57812964
+Reference = S57;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA9C
+Path = /575CF37C/57812968
+Reference = S58;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BAAC
+Path = /575CF37C/57812979
+Reference = S60;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764E52D
+Path = /5780BB16/5765B1FB
+Reference = LED94;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764E525
+Path = /5780BB16/5765B213
+Reference = C104-94;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764DA71
+Path = /5780BB16/5765B1F5
+Reference = LED93;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764DA69
+Path = /5780BB16/5765B1EF
+Reference = LED92;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764DA61
+Path = /5780BB16/5765B1E9
+Reference = LED91;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764DA59
+Path = /5780BB16/5765B20D
+Reference = C104-93;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764DA53
+Path = /5780BB16/5765B207
+Reference = C104-92;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764DA4D
+Path = /5780BB16/5765B201
+Reference = C104-91;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C357
+Path = /5780BB16/5765B1E3
+Reference = C104-90;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C351
+Path = /5780BB16/5765B1DD
+Reference = C104-89;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C34B
+Path = /5780BB16/576613C5
+Reference = C104-88;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C345
+Path = /5780BB16/577BA3AB
+Reference = C104-87;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C33F
+Path = /5780BB16/577BA3B2
+Reference = C104-86;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C339
+Path = /5780BB16/577BA3B9
+Reference = C104-85;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C333
+Path = /5780BB16/577BA3C0
+Reference = C104-84;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C32D
+Path = /5780BB16/577BA3E3
+Reference = C104-83;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C327
+Path = /5780BB16/577BA3EA
+Reference = C104-82;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C321
+Path = /5780BB16/577BA3F1
+Reference = C104-81;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C31B
+Path = /5780BB16/577BA3F8
+Reference = C104-80;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C315
+Path = /5780BB16/5765ABDE
+Reference = C104-79;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C30F
+Path = /5780BB16/5765ABD8
+Reference = C104-78;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C309
+Path = /5780BB16/5765ABD2
+Reference = C104-77;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C303
+Path = /5780BB16/5765ABCC
+Reference = C104-76;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2FD
+Path = /5780BB16/5765ABAE
+Reference = C104-75;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2F7
+Path = /5780BB16/5765ABA8
+Reference = C104-74;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2F1
+Path = /5780BB16/5765ABA2
+Reference = C104-73;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2EB
+Path = /5780BB16/5765AB9C
+Reference = C104-72;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2E5
+Path = /577EF6FE/57696FD2
+Reference = C104-71;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2DF
+Path = /577EF6FE/57696FCB
+Reference = C104-70;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2D9
+Path = /577EF6FE/57696FC4
+Reference = C104-69;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2D3
+Path = /577EF6FE/57696FBD
+Reference = C104-68;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2CD
+Path = /577EF6FE/57696F9A
+Reference = C104-67;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2C1
+Path = /577EF6FE/57696F54
+Reference = C104-65;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2BB
+Path = /577EF6FE/576E0C13
+Reference = C104-64;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2B5
+Path = /577EF6FE/57696F1C
+Reference = C104-63;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2AF
+Path = /577EF6FE/57696F15
+Reference = C104-62;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2A9
+Path = /577EF6FE/576975F1
+Reference = C104-61;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C2A3
+Path = /577EF6FE/57773786
+Reference = C104-60;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C29D
+Path = /577EF6FE/576975FF
+Reference = C104-59;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C297
+Path = /577EF6FE/57697629
+Reference = C104-58;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C291
+Path = /577EF6FE/57697630
+Reference = C104-57;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C28B
+Path = /577EF6FE/57697637
+Reference = C104-56;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C285
+Path = /577EF6FE/5769763E
+Reference = C104-55;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C27F
+Path = /577EF6FE/57697661
+Reference = C104-54;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C279
+Path = /577EF6FE/57697668
+Reference = C104-53;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C273
+Path = /577EF6FE/5769766F
+Reference = C104-52;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C26D
+Path = /577EF6FE/57697676
+Reference = C104-51;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C267
+Path = /577EF6FE/576976A7
+Reference = C104-50;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C261
+Path = /577EF6FE/576976A0
+Reference = C104-49;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C25B
+Path = /577EF6FE/576976AE
+Reference = C104-48;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C255
+Path = /577EF6FE/5769B21A
+Reference = C104-47;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C24F
+Path = /577EF6FE/5769B213
+Reference = C104-46;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C249
+Path = /577EF6FE/5769B20C
+Reference = C104-45;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C243
+Path = /577EF6FE/5769B1E2
+Reference = C104-44;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C23D
+Path = /577EF6FE/5769B1DB
+Reference = C104-43;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C237
+Path = /577EF6FE/5769B1D4
+Reference = C104-42;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C231
+Path = /577EF6FE/5769B1CD
+Reference = C104-41;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C22B
+Path = /577EF6FE/5769B1AA
+Reference = C104-40;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C225
+Path = /577EF6FE/5769B1A3
+Reference = C104-39;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C21F
+Path = /577EF6FE/5769B19C
+Reference = C104-38;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C219
+Path = /577EF6FE/5769B195
+Reference = C104-37;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C213
+Path = /577EF6FE/5769B172
+Reference = C104-36;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C20D
+Path = /577EF6FE/5769B16B
+Reference = C104-35;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C207
+Path = /577EF6FE/5769B164
+Reference = C104-34;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C201
+Path = /577EF6FE/5769B15D
+Reference = C104-33;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1FB
+Path = /577EF6FE/5769B74D
+Reference = C104-32;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1F5
+Path = /577EF6FE/5769B754
+Reference = C104-31;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1EF
+Path = /577EF6FE/5769B75B
+Reference = C104-30;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1E9
+Path = /577EF6FE/5769B762
+Reference = C104-29;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1E3
+Path = /577EF6FE/5769B785
+Reference = C104-28;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1DD
+Path = /577EF6FE/5769B78C
+Reference = C104-27;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1D7
+Path = /577EF6FE/5769B793
+Reference = C104-26;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1D1
+Path = /577EF6FE/5769B79A
+Reference = C104-25;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1CB
+Path = /577EF6FE/5769B7BD
+Reference = C104-24;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1C5
+Path = /577EF6FE/5769B7C4
+Reference = C104-23;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1BF
+Path = /577EF6FE/5769B7CB
+Reference = C104-22;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1B9
+Path = /577EF6FE/5769B7D2
+Reference = C104-21;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1B3
+Path = /577EF6FE/5769B7F5
+Reference = C104-20;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1AD
+Path = /577EF6FE/5769B7FC
+Reference = C104-19;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1A7
+Path = /577EF6FE/5769B803
+Reference = C104-18;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C1A1
+Path = /577EF6FE/5769B80A
+Reference = C104-17;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C19B
+Path = /577EF6FE/5769FBF2
+Reference = C104-16;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C195
+Path = /577EF6FE/5769FBEB
+Reference = C104-15;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C18F
+Path = /577EF6FE/5769FBE4
+Reference = C104-14;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C189
+Path = /577EF6FE/5769FBDD
+Reference = C104-13;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C183
+Path = /577EF6FE/5769FBBA
+Reference = C104-12;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C17D
+Path = /577EF6FE/5769FBB3
+Reference = C104-11;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C177
+Path = /577EF6FE/5769FBAC
+Reference = C104-10;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C171
+Path = /577EF6FE/5769FBA5
+Reference = C104-9;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C16B
+Path = /577EF6FE/5769FB82
+Reference = C104-8;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C165
+Path = /577EF6FE/5769FB7B
+Reference = C104-7;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C15F
+Path = /577EF6FE/5769FB74
+Reference = C104-6;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C159
+Path = /577EF6FE/5769FB6D
+Reference = C104-5;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C153
+Path = /577EF6FE/5769FB4A
+Reference = C104-4;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C14D
+Path = /577EF6FE/5769FB43
+Reference = C104-3;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C147
+Path = /577EF6FE/5769FB3C
+Reference = C104-2;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764C141
+Path = /577EF6FE/5769FB35
+Reference = C104-1;
+ValeurCmp = .1uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA19
+Path = /575A6A93
+Reference = R3;
+ValeurCmp = 22;
+IdModule  = GH60Foots:22R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA0E
+Path = /575AAA27
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = GH60Foots:10kR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764B7E3
+Path = /576C559D
+Reference = C8;
+ValeurCmp = 5u;
+IdModule  = StormbardKeyboard:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764B7D8
+Path = /576ABD05
+Reference = C7;
+ValeurCmp = 1u;
+IdModule  = GH60Foots:1uC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764B7CD
+Path = /575A76F0
+Reference = C5;
+ValeurCmp = 22p;
+IdModule  = GH60Foots:22pC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764B7C2
+Path = /576A6A0E
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = GH60Foots:100nC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764911E
+Path = /575A611E
+Reference = IC1;
+ValeurCmp = ATMEGA32U4;
+IdModule  = GH60Foots:ATMEGA32U4;
+EndCmp
+
+BeginCmp
+TimeStamp = 57648B8D
+Path = /577EF6FE/57696F07
+Reference = LED64;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57648B7F
+Path = /577EF6FE/57696F00
+Reference = LED63;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57647BE1
+Path = /577EF6FE/57696FAF
+Reference = LED70;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57647BD3
+Path = /577EF6FE/57696FA8
+Reference = LED69;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B32
+Path = /577EF6FE/57696FB6
+Reference = LED71;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B08
+Path = /577EF6FE/57696FA1
+Reference = LED68;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642AFA
+Path = /577EF6FE/57696F7E
+Reference = LED67;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642AEC
+Path = /577EF6FE/57696F77
+Reference = LED66;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642ADE
+Path = /577EF6FE/57696F38
+Reference = LED65;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642AB4
+Path = /577EF6FE/57696EF9
+Reference = LED62;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642AA6
+Path = /577EF6FE/576975D5
+Reference = LED61;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A98
+Path = /577EF6FE/57773780
+Reference = LED60;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A8A
+Path = /577EF6FE/576975E3
+Reference = LED59;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A7C
+Path = /577EF6FE/5769760D
+Reference = LED58;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A60
+Path = /577EF6FE/5769761B
+Reference = LED56;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A52
+Path = /577EF6FE/57697622
+Reference = LED55;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A44
+Path = /577EF6FE/57697645
+Reference = LED54;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A36
+Path = /577EF6FE/5769764C
+Reference = LED53;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A28
+Path = /577EF6FE/57697653
+Reference = LED52;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A1A
+Path = /577EF6FE/5769765A
+Reference = LED51;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A0C
+Path = /577EF6FE/5776C79B
+Reference = LED50;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576429FE
+Path = /577EF6FE/57697684
+Reference = LED49;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576429F0
+Path = /577EF6FE/57697692
+Reference = LED48;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576429E2
+Path = /577EF6FE/5769B1FE
+Reference = LED47;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576429D4
+Path = /577EF6FE/5769B1F7
+Reference = LED46;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576429C6
+Path = /577EF6FE/5769B1F0
+Reference = LED45;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576429B8
+Path = /577EF6FE/5769B1C6
+Reference = LED44;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576429AA
+Path = /577EF6FE/5769B1BF
+Reference = LED43;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764299C
+Path = /577EF6FE/5769B1B8
+Reference = LED42;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764298E
+Path = /577EF6FE/5769B1B1
+Reference = LED41;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642980
+Path = /577EF6FE/5769B18E
+Reference = LED40;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642972
+Path = /577EF6FE/5769B187
+Reference = LED39;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642964
+Path = /577EF6FE/5769B180
+Reference = LED38;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642956
+Path = /577EF6FE/5769B179
+Reference = LED37;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642948
+Path = /577EF6FE/5769B156
+Reference = LED36;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764293A
+Path = /577EF6FE/5769B14F
+Reference = LED35;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764292C
+Path = /577EF6FE/5769B148
+Reference = LED34;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764291E
+Path = /577EF6FE/5769B141
+Reference = LED33;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642910
+Path = /577EF6FE/5769B731
+Reference = LED32;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642902
+Path = /577EF6FE/5769B738
+Reference = LED31;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576428F4
+Path = /577EF6FE/5769B73F
+Reference = LED30;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576428E6
+Path = /577EF6FE/5769B746
+Reference = LED29;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576428D8
+Path = /577EF6FE/5769B769
+Reference = LED28;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576428CA
+Path = /577EF6FE/5769B770
+Reference = LED27;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576428BC
+Path = /577EF6FE/5769B777
+Reference = LED26;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576428AE
+Path = /577EF6FE/5769B77E
+Reference = LED25;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576428A0
+Path = /577EF6FE/5769B7A1
+Reference = LED24;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642892
+Path = /577EF6FE/5769B7A8
+Reference = LED23;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642884
+Path = /577EF6FE/5769B7AF
+Reference = LED22;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642876
+Path = /577EF6FE/5769B7B6
+Reference = LED21;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642868
+Path = /577EF6FE/5769B7D9
+Reference = LED20;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764285A
+Path = /577EF6FE/5769B7E0
+Reference = LED19;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764284C
+Path = /577EF6FE/5769B7E7
+Reference = LED18;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764283E
+Path = /577EF6FE/5769B7EE
+Reference = LED17;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642830
+Path = /577EF6FE/5769FBD6
+Reference = LED16;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642822
+Path = /577EF6FE/5769FBCF
+Reference = LED15;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642814
+Path = /577EF6FE/5769FBC8
+Reference = LED14;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642806
+Path = /577EF6FE/5769FBC1
+Reference = LED13;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576427F8
+Path = /577EF6FE/5769FB9E
+Reference = LED12;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576427EA
+Path = /577EF6FE/5769FB97
+Reference = LED11;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576427DC
+Path = /577EF6FE/5769FB90
+Reference = LED10;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576427CE
+Path = /577EF6FE/5769FB89
+Reference = LED9;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576427C0
+Path = /577EF6FE/5769FB66
+Reference = LED8;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576427B2
+Path = /577EF6FE/5769FB5F
+Reference = LED7;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576427A4
+Path = /577EF6FE/5769FB58
+Reference = LED6;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642796
+Path = /577EF6FE/5769FB51
+Reference = LED5;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642788
+Path = /577EF6FE/5769FB2E
+Reference = LED4;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764277A
+Path = /577EF6FE/5769FB27
+Reference = LED3;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764276C
+Path = /577EF6FE/5769FB20
+Reference = LED2;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764275E
+Path = /577EF6FE/5769FB19
+Reference = LED1;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A61C
+Path = /577E9438
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = GH60Foots:10kR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A610
+Path = /575A6A2C
+Reference = R2;
+ValeurCmp = 22;
+IdModule  = GH60Foots:22R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A5ED
+Path = /57713B16
+Reference = PB1;
+ValeurCmp = DTSM-6;
+IdModule  = dtsm:KSEM31GLFS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A281
+Path = /5761900E
+Reference = J1;
+ValeurCmp = USBMINI_B05;
+IdModule  = GH60Foots:USBMiniB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A22A
+Path = /575CF37C/5781297E
+Reference = D71;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A224
+Path = /575CF37C/5781297C
+Reference = D70;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A21E
+Path = /575CF37C/57812970
+Reference = D69;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A218
+Path = /575CF37C/57812971
+Reference = D68;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A212
+Path = /575CF37C/57812972
+Reference = D67;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A20C
+Path = /575CF37C/57812973
+Reference = D66;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A206
+Path = /575CF37C/57812978
+Reference = D65;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A200
+Path = /575CF37C/57812977
+Reference = D64;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1FA
+Path = /575CF37C/57812976
+Reference = D63;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1F4
+Path = /575CF37C/57812975
+Reference = D62;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1EE
+Path = /575CF37C/5781298A
+Reference = D61;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1E8
+Path = /575CF37C/5781297A
+Reference = D60;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1E2
+Path = /575CF37C/5781296F
+Reference = D59;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1DC
+Path = /575CF37C/57812969
+Reference = D58;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1D6
+Path = /575CF37C/57812965
+Reference = D57;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1D0
+Path = /575CF37C/57812961
+Reference = D56;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1CA
+Path = /575CF37C/5781295D
+Reference = D55;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1C4
+Path = /575CF37C/57812959
+Reference = D54;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1BE
+Path = /575CF37C/57812955
+Reference = D53;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1B8
+Path = /575CF37C/57812951
+Reference = D52;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1B2
+Path = /575CF37C/5781294D
+Reference = D51;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1AC
+Path = /575CF37C/57812949
+Reference = D50;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1A6
+Path = /575CF37C/57812945
+Reference = D49;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A1A0
+Path = /575CF37C/5781298B
+Reference = D48;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A19A
+Path = /575CF37C/57812988
+Reference = D47;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A194
+Path = /575CF37C/57812986
+Reference = D46;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A18E
+Path = /575CF37C/5781296D
+Reference = D45;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A188
+Path = /575CF37C/57812967
+Reference = D44;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A182
+Path = /575CF37C/57812963
+Reference = D43;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A17C
+Path = /575CF37C/5781295F
+Reference = D42;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A176
+Path = /575CF37C/5781295B
+Reference = D41;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A170
+Path = /575CF37C/57812957
+Reference = D40;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A16A
+Path = /575CF37C/57812953
+Reference = D39;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A164
+Path = /575CF37C/5781294F
+Reference = D38;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A15E
+Path = /575CF37C/5781294B
+Reference = D37;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A158
+Path = /575CF37C/57812947
+Reference = D36;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A152
+Path = /575CF37C/57812943
+Reference = D35;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A14C
+Path = /575CF37C/5781293F
+Reference = D34;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A146
+Path = /575CF37C/57812974
+Reference = D33;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A140
+Path = /575CF37C/57812984
+Reference = D32;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A13A
+Path = /575CF37C/57812982
+Reference = D31;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A134
+Path = /575CF37C/5781293D
+Reference = D30;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A12E
+Path = /575CF37C/5781293B
+Reference = D29;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A128
+Path = /575CF37C/57812939
+Reference = D28;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A122
+Path = /575CF37C/57812937
+Reference = D27;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A11C
+Path = /575CF37C/57812935
+Reference = D26;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A116
+Path = /575CF37C/57812933
+Reference = D25;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A110
+Path = /575CF37C/57812931
+Reference = D24;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A10A
+Path = /575CF37C/5781292F
+Reference = D23;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A104
+Path = /575CF37C/5781292D
+Reference = D22;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0FE
+Path = /575CF37C/5781292B
+Reference = D21;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0F8
+Path = /575CF37C/57812929
+Reference = D20;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0F2
+Path = /575CF37C/57812927
+Reference = D19;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0EC
+Path = /575CF37C/57812925
+Reference = D18;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0E6
+Path = /575CF37C/57812923
+Reference = D17;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0E0
+Path = /575CF37C/57813923
+Reference = D16;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0DA
+Path = /575CF37C/57812980
+Reference = D15;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0D4
+Path = /575CF37C/5781296C
+Reference = D14;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0CE
+Path = /575CF37C/57812921
+Reference = D13;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0C8
+Path = /575CF37C/5781291F
+Reference = D12;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0C2
+Path = /575CF37C/5781291D
+Reference = D11;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0BC
+Path = /575CF37C/5781291B
+Reference = D10;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0B6
+Path = /575CF37C/57812919
+Reference = D9;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0B0
+Path = /575CF37C/57812917
+Reference = D8;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0AA
+Path = /575CF37C/57812915
+Reference = D7;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A0A4
+Path = /575CF37C/57812913
+Reference = D6;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A09E
+Path = /575CF37C/57812911
+Reference = D5;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A098
+Path = /575CF37C/5781290F
+Reference = D4;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A092
+Path = /575CF37C/5781290D
+Reference = D3;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A08C
+Path = /575CF37C/5781290B
+Reference = D2;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A086
+Path = /575CF37C/57812909
+Reference = D1;
+ValeurCmp = D;
+IdModule  = GH60Foots:1N4148SMDDiode;
+EndCmp
+
+BeginCmp
+TimeStamp = 57639E58
+Path = /575A6829
+Reference = C9;
+ValeurCmp = 1u;
+IdModule  = GH60Foots:1uC;
+EndCmp
+
+BeginCmp
+TimeStamp = 57639E46
+Path = /575A7734
+Reference = C6;
+ValeurCmp = 22p;
+IdModule  = GH60Foots:22pC;
+EndCmp
+
+BeginCmp
+TimeStamp = 57639E3A
+Path = /576A8463
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = GH60Foots:100nC;
+EndCmp
+
+BeginCmp
+TimeStamp = 57639E2E
+Path = /576A6BFA
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = GH60Foots:100nC;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642BE8
+Path = /5780BB16/577BA3A4
+Reference = LED84;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B86
+Path = /5780BB16/5765ABBA
+Reference = LED77;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B5C
+Path = /5780BB16/5765AB90
+Reference = LED74;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B40
+Path = /5780BB16/5765AB84
+Reference = LED72;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642C3C
+Path = /5780BB16/5765B1CB
+Reference = LED90;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642C2E
+Path = /5780BB16/5765B1C5
+Reference = LED89;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642C20
+Path = /5780BB16/576613BF
+Reference = LED88;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642C12
+Path = /5780BB16/577BA38F
+Reference = LED87;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642C04
+Path = /5780BB16/577BA396
+Reference = LED86;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642BF6
+Path = /5780BB16/577BA39D
+Reference = LED85;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642BDA
+Path = /5780BB16/577BA3C7
+Reference = LED83;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642BCC
+Path = /5780BB16/577BA3CE
+Reference = LED82;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642BBE
+Path = /5780BB16/577BA3D5
+Reference = LED81;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642BB0
+Path = /5780BB16/577BA3DC
+Reference = LED80;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642BA2
+Path = /5780BB16/5765ABC6
+Reference = LED79;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B94
+Path = /5780BB16/5765ABC0
+Reference = LED78;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B78
+Path = /5780BB16/5765ABB4
+Reference = LED76;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B6A
+Path = /5780BB16/5765AB96
+Reference = LED75;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642B4E
+Path = /5780BB16/5765AB8A
+Reference = LED73;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA4C
+Path = /575CF37C/578128E9
+Reference = S14;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_200H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA64
+Path = /575CF37C/5781293C
+Reference = S30;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_150H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A88F
+Path = /575CF37C/57812989
+Reference = S61;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A811
+Path = /575CF37C/57812987
+Reference = S47;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5763A7E4
+Path = /575CF37C/5781295E
+Reference = S42;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = 5764BA6C
+Path = /575CF37C/578128EA
+Reference = S33;
+ValeurCmp = MX1A;
+IdModule  = StormbardKeyboard:CHERRY_PCB_175H;
+EndCmp
+
+BeginCmp
+TimeStamp = 57642A6E
+Path = /577EF6FE/57697614
+Reference = LED57;
+ValeurCmp = SK6812Mini;
+IdModule  = Keyboard:Sk6812Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 576CB934
+Path = /575A7623
+Reference = X1;
+ValeurCmp = ASX4;
+IdModule  = Keyboard:7177M16Mhz;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F885E
+Path = /57590FED/576E4EDB
+Reference = C10;
+ValeurCmp = 10uf;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8864
+Path = /57590FED/576E4BC5
+Reference = C11;
+ValeurCmp = 10uF;
+IdModule  = 0805:0805C;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F886A
+Path = /57590FED/576E35D3
+Reference = DLED1;
+ValeurCmp = RED;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8870
+Path = /57590FED/57721EA8
+Reference = DLED2;
+ValeurCmp = GREEN;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8876
+Path = /57590FED/57721DEA
+Reference = DLED3;
+ValeurCmp = ORANGE;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8889
+Path = /57590FED/576F78F9
+Reference = IC2;
+ValeurCmp = MCP73833T-AMI/MF;
+IdModule  = Keyboard:MCP73833T;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8898
+Path = /575967D6/576F6D7A
+Reference = IC3;
+ValeurCmp = Bluefruit-EZ-Key;
+IdModule  = Keyboard:BluefruitEzKey;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88A6
+Path = /575967D6/576F66C7
+Reference = IC4;
+ValeurCmp = BlueSMiRF;
+IdModule  = Keyboard:BlueSMiRF;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88AB
+Path = /5763271D
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88B0
+Path = /575E3444
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88B5
+Path = /5763387A
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88BA
+Path = /575E4AD1
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88BF
+Path = /576349EE
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88C4
+Path = /575E4C27
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88C9
+Path = /57634ABE
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88CE
+Path = /57634B97
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88D3
+Path = /57634C6C
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88D8
+Path = /57634D41
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88DD
+Path = /5767C493
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88E7
+Path = /57590FED/575AC7F9
+Reference = P12;
+ValeurCmp = BT 1.8-5V;
+IdModule  = Keyboard:JSTPH2PinConnector;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88EF
+Path = /575967D6/5771415C
+Reference = PB2;
+ValeurCmp = DTSM-6;
+IdModule  = dtsm:KSEM31GLFS;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88F5
+Path = /57590FED/576E9C51
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F88FB
+Path = /57590FED/576E33AF
+Reference = R6;
+ValeurCmp = 150;
+IdModule  = StormbardKeyboard:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8901
+Path = /57590FED/5759DE07
+Reference = R7;
+ValeurCmp = 150;
+IdModule  = StormbardKeyboard:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8907
+Path = /57590FED/5759DF11
+Reference = R8;
+ValeurCmp = 150;
+IdModule  = StormbardKeyboard:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F890D
+Path = /57590FED/576E3224
+Reference = R9;
+ValeurCmp = 2K;
+IdModule  = StormbardKeyboard:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8913
+Path = /57590FED/576E5F5F
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = StormbardKeyboard:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8919
+Path = /575967D6/575FC51D
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = GH60Foots:10kR;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F891F
+Path = /577EF6FE/575E8DAE
+Reference = R12;
+ValeurCmp = 470;
+IdModule  = StormbardKeyboard:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8925
+Path = /5780BB16/577BA2B8
+Reference = R21;
+ValeurCmp = 470;
+IdModule  = StormbardKeyboard:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8932
+Path = /57590FED/576B9746
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = Keyboard:SPSTRockerSwitch;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8C03
+Path = /577EF6FE/5770CD5D
+Reference = R13;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8C09
+Path = /577EF6FE/5770B369
+Reference = R14;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8C0F
+Path = /577EF6FE/57709BD5
+Reference = R15;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8C15
+Path = /577EF6FE/57702DA6
+Reference = R16;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8C1B
+Path = /577EF6FE/57704172
+Reference = R17;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8C21
+Path = /577EF6FE/57704ADD
+Reference = R18;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8C27
+Path = /577EF6FE/57706973
+Reference = R19;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 576F8C2D
+Path = /577EF6FE/57707FE6
+Reference = R20;
+ValeurCmp = 0;
+IdModule  = 0805:0805R;
+EndCmp
+
+BeginCmp
+TimeStamp = 57734429
+Path = /57735A85
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 5773442E
+Path = /57735A8B
+Reference = P14;
+ValeurCmp = CONN_1;
+IdModule  = GH60Foots:Throughole Connector;
+EndCmp
+
+EndListe

@@ -1,0 +1,4781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/David/Dropbox/Personal/Keyboard/Kicad Project/keyboard.sch</source>
+    <date>7/14/2016 7:20:46 PM</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>dhcabinian 68% RGB Backlit Bluetooth Keyboard</title>
+        <company/>
+        <rev>1.0</rev>
+        <date/>
+        <source>keyboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/BatteryCharger/" tstamps="/57590FED/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BatteryCharger.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/AdafruitBluetooth/" tstamps="/575967D6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Bluetooth.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Matrix/" tstamps="/575CF37C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>17 jul 2013</date>
+        <source>Matrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/keyboardBacklight/" tstamps="/577EF6FE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>17 jul 2013</date>
+        <source>keyboardBacklight.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/keyboardUnderglow/" tstamps="/5780BB16/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>17 jul 2013</date>
+        <source>keyboardUnderglow.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>ATMEGA32U4</value>
+      <footprint>Keyboard:ATMEGA32U4</footprint>
+      <libsource lib="keyboard-cache" part="ATMEGA32U4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575A611E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575A6829</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575A6A2C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575A6A93</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>ASX4</value>
+      <footprint>Keyboard:7177M16Mhz</footprint>
+      <libsource lib="keyboard-cache" part="ASX4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575A7623</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22p</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575A76F0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22p</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575A7734</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575AAA27</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577E9438</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USBMINI_B05</value>
+      <footprint>Keyboard:USBMiniB</footprint>
+      <libsource lib="keyboard-cache" part="USBMINI_B05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5761900E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763271D</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5763387A</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576349EE</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57634ABE</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57634B97</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57634C6C</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57634D41</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5767C493</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576A6A0E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576A6BFA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576A8364</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576A8463</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1u</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576ABD05</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>5u</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576C559D</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575E3444</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575E4AD1</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575E4C27</tstamp>
+    </comp>
+    <comp ref="PB1">
+      <value>DTSM-6</value>
+      <footprint>Keyboard:KSEM31GLFS</footprint>
+      <libsource lib="keyboard-cache" part="DTSM-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57713B16</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57735A85</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_1</value>
+      <footprint>Keyboard:Throughole Connector</footprint>
+      <libsource lib="keyboard-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57735A8B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>150</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>5759DE07</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>150</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>5759DF11</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>BT 1.8-5V</value>
+      <footprint>Keyboard:JSTPH2PinConnector</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>575AC7F9</tstamp>
+    </comp>
+    <comp ref="DLED3">
+      <value>ORANGE</value>
+      <footprint>Keyboard:0805LED</footprint>
+      <libsource lib="Keyboard" part="DLED"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>57721DEA</tstamp>
+    </comp>
+    <comp ref="DLED2">
+      <value>GREEN</value>
+      <footprint>Keyboard:0805LED</footprint>
+      <libsource lib="Keyboard" part="DLED"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>57721EA8</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2K</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>576E3224</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>150</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>576E33AF</tstamp>
+    </comp>
+    <comp ref="DLED1">
+      <value>RED</value>
+      <footprint>Keyboard:0805LED</footprint>
+      <libsource lib="Keyboard" part="DLED"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>576E35D3</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>576E4BC5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uf</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>576E4EDB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>576E5F5F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>576E9C51</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>MCP73833T-AMI/MF</value>
+      <footprint>Keyboard:MCP73833T</footprint>
+      <libsource lib="Keyboard" part="MCP73833T-AMI/MF"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>576F78F9</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Switch_SPDT_x2</value>
+      <footprint>Keyboard:CL-SA-12C4-02</footprint>
+      <libsource lib="device" part="Switch_SPDT_x2"/>
+      <sheetpath names="/BatteryCharger/" tstamps="/57590FED/"/>
+      <tstamp>577A17D0</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/AdafruitBluetooth/" tstamps="/575967D6/"/>
+      <tstamp>575FC51D</tstamp>
+    </comp>
+    <comp ref="PB2">
+      <value>DTSM-6</value>
+      <footprint>Keyboard:KSEM31GLFS</footprint>
+      <libsource lib="keyboard-cache" part="DTSM-6"/>
+      <sheetpath names="/AdafruitBluetooth/" tstamps="/575967D6/"/>
+      <tstamp>5771415C</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>BlueSMiRF</value>
+      <footprint>Keyboard:BlueSMiRF</footprint>
+      <libsource lib="Keyboard" part="BlueSMiRF"/>
+      <sheetpath names="/AdafruitBluetooth/" tstamps="/575967D6/"/>
+      <tstamp>576F66C7</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>Bluefruit-EZ-Key</value>
+      <footprint>Keyboard:BluefruitEzKey</footprint>
+      <libsource lib="Keyboard" part="Bluefruit-EZ-Key"/>
+      <sheetpath names="/AdafruitBluetooth/" tstamps="/575967D6/"/>
+      <tstamp>576F6D7A</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128E8</tstamp>
+    </comp>
+    <comp ref="S14">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_200H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128E9</tstamp>
+    </comp>
+    <comp ref="S33">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_175H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128EA</tstamp>
+    </comp>
+    <comp ref="S59">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_275H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128EB</tstamp>
+    </comp>
+    <comp ref="S62">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128EC</tstamp>
+    </comp>
+    <comp ref="S63">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128ED</tstamp>
+    </comp>
+    <comp ref="S64">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128EE</tstamp>
+    </comp>
+    <comp ref="S66">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128EF</tstamp>
+    </comp>
+    <comp ref="S67">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128F0</tstamp>
+    </comp>
+    <comp ref="S68">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128FA</tstamp>
+    </comp>
+    <comp ref="S69">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128FB</tstamp>
+    </comp>
+    <comp ref="S65">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_625H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>578128FD</tstamp>
+    </comp>
+    <comp ref="S48">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_225H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812900</tstamp>
+    </comp>
+    <comp ref="S45">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_225H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812901</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812909</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781290A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781290B</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781290C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781290D</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781290E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781290F</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812910</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812911</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812912</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812913</tstamp>
+    </comp>
+    <comp ref="S7">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812914</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812915</tstamp>
+    </comp>
+    <comp ref="S8">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812916</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812917</tstamp>
+    </comp>
+    <comp ref="S9">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812918</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812919</tstamp>
+    </comp>
+    <comp ref="S10">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781291A</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781291B</tstamp>
+    </comp>
+    <comp ref="S11">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781291C</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781291D</tstamp>
+    </comp>
+    <comp ref="S12">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781291E</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781291F</tstamp>
+    </comp>
+    <comp ref="S13">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812920</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812921</tstamp>
+    </comp>
+    <comp ref="S17">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_150H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812922</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812923</tstamp>
+    </comp>
+    <comp ref="S18">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812924</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812925</tstamp>
+    </comp>
+    <comp ref="S19">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812926</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812927</tstamp>
+    </comp>
+    <comp ref="S20">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812928</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812929</tstamp>
+    </comp>
+    <comp ref="S21">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781292A</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781292B</tstamp>
+    </comp>
+    <comp ref="S22">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781292C</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781292D</tstamp>
+    </comp>
+    <comp ref="S23">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781292E</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781292F</tstamp>
+    </comp>
+    <comp ref="S24">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812930</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812931</tstamp>
+    </comp>
+    <comp ref="S25">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812932</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812933</tstamp>
+    </comp>
+    <comp ref="S26">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812934</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812935</tstamp>
+    </comp>
+    <comp ref="S27">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812936</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812937</tstamp>
+    </comp>
+    <comp ref="S28">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812938</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812939</tstamp>
+    </comp>
+    <comp ref="S29">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781293A</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781293B</tstamp>
+    </comp>
+    <comp ref="S30">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_150H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781293C</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781293D</tstamp>
+    </comp>
+    <comp ref="S34">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781293E</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781293F</tstamp>
+    </comp>
+    <comp ref="S35">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812942</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812943</tstamp>
+    </comp>
+    <comp ref="S49">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812944</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812945</tstamp>
+    </comp>
+    <comp ref="S36">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812946</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812947</tstamp>
+    </comp>
+    <comp ref="S50">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812948</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812949</tstamp>
+    </comp>
+    <comp ref="S37">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781294A</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781294B</tstamp>
+    </comp>
+    <comp ref="S51">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781294C</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781294D</tstamp>
+    </comp>
+    <comp ref="S38">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781294E</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781294F</tstamp>
+    </comp>
+    <comp ref="S52">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812950</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812951</tstamp>
+    </comp>
+    <comp ref="S39">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812952</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812953</tstamp>
+    </comp>
+    <comp ref="S53">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812954</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812955</tstamp>
+    </comp>
+    <comp ref="S40">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812956</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812957</tstamp>
+    </comp>
+    <comp ref="S54">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812958</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812959</tstamp>
+    </comp>
+    <comp ref="S41">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781295A</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781295B</tstamp>
+    </comp>
+    <comp ref="S55">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781295C</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781295D</tstamp>
+    </comp>
+    <comp ref="S42">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781295E</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781295F</tstamp>
+    </comp>
+    <comp ref="S56">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812960</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812961</tstamp>
+    </comp>
+    <comp ref="S43">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812962</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812963</tstamp>
+    </comp>
+    <comp ref="S57">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812964</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812965</tstamp>
+    </comp>
+    <comp ref="S44">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812966</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812967</tstamp>
+    </comp>
+    <comp ref="S58">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812968</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812969</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781296C</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781296F</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812970</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812971</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812972</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812973</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812974</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812975</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812976</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812977</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812978</tstamp>
+    </comp>
+    <comp ref="S60">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812979</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781297A</tstamp>
+    </comp>
+    <comp ref="S70">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781297B</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781297C</tstamp>
+    </comp>
+    <comp ref="S71">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781297D</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781297E</tstamp>
+    </comp>
+    <comp ref="S15">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781297F</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812980</tstamp>
+    </comp>
+    <comp ref="S31">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812981</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812982</tstamp>
+    </comp>
+    <comp ref="S32">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812983</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812984</tstamp>
+    </comp>
+    <comp ref="S46">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812985</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812986</tstamp>
+    </comp>
+    <comp ref="S47">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812987</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812988</tstamp>
+    </comp>
+    <comp ref="S61">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57812989</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781298A</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781298B</tstamp>
+    </comp>
+    <comp ref="S16">
+      <value>MX1A</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard-cache" part="MX1A"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781391B</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>57813923</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>D</value>
+      <footprint>Keyboard:0805D</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Matrix/" tstamps="/575CF37C/"/>
+      <tstamp>5781296D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>470</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>575E8DAE</tstamp>
+    </comp>
+    <comp ref="LED62">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696EF9</tstamp>
+    </comp>
+    <comp ref="LED63">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F00</tstamp>
+    </comp>
+    <comp ref="LED64">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F07</tstamp>
+    </comp>
+    <comp ref="C104-62">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F15</tstamp>
+    </comp>
+    <comp ref="C104-63">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F1C</tstamp>
+    </comp>
+    <comp ref="LED65">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F38</tstamp>
+    </comp>
+    <comp ref="C104-65">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F54</tstamp>
+    </comp>
+    <comp ref="LED66">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F77</tstamp>
+    </comp>
+    <comp ref="LED67">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F7E</tstamp>
+    </comp>
+    <comp ref="C104-66">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F93</tstamp>
+    </comp>
+    <comp ref="C104-67">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696F9A</tstamp>
+    </comp>
+    <comp ref="LED68">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696FA1</tstamp>
+    </comp>
+    <comp ref="LED69">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696FA8</tstamp>
+    </comp>
+    <comp ref="LED70">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696FAF</tstamp>
+    </comp>
+    <comp ref="LED71">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696FB6</tstamp>
+    </comp>
+    <comp ref="C104-68">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696FBD</tstamp>
+    </comp>
+    <comp ref="C104-69">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696FC4</tstamp>
+    </comp>
+    <comp ref="C104-70">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696FCB</tstamp>
+    </comp>
+    <comp ref="C104-71">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57696FD2</tstamp>
+    </comp>
+    <comp ref="LED61">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>576975D5</tstamp>
+    </comp>
+    <comp ref="LED59">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>576975E3</tstamp>
+    </comp>
+    <comp ref="C104-61">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>576975F1</tstamp>
+    </comp>
+    <comp ref="C104-59">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>576975FF</tstamp>
+    </comp>
+    <comp ref="LED58">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769760D</tstamp>
+    </comp>
+    <comp ref="LED57">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697614</tstamp>
+    </comp>
+    <comp ref="LED56">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769761B</tstamp>
+    </comp>
+    <comp ref="LED55">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697622</tstamp>
+    </comp>
+    <comp ref="C104-58">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697629</tstamp>
+    </comp>
+    <comp ref="C104-57">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697630</tstamp>
+    </comp>
+    <comp ref="C104-56">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697637</tstamp>
+    </comp>
+    <comp ref="C104-55">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769763E</tstamp>
+    </comp>
+    <comp ref="LED54">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697645</tstamp>
+    </comp>
+    <comp ref="LED53">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769764C</tstamp>
+    </comp>
+    <comp ref="LED52">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697653</tstamp>
+    </comp>
+    <comp ref="LED51">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769765A</tstamp>
+    </comp>
+    <comp ref="C104-54">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697661</tstamp>
+    </comp>
+    <comp ref="C104-53">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697668</tstamp>
+    </comp>
+    <comp ref="C104-52">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769766F</tstamp>
+    </comp>
+    <comp ref="C104-51">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697676</tstamp>
+    </comp>
+    <comp ref="LED49">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697684</tstamp>
+    </comp>
+    <comp ref="LED48">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57697692</tstamp>
+    </comp>
+    <comp ref="C104-49">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>576976A0</tstamp>
+    </comp>
+    <comp ref="C104-50">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>576976A7</tstamp>
+    </comp>
+    <comp ref="C104-48">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>576976AE</tstamp>
+    </comp>
+    <comp ref="LED33">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B141</tstamp>
+    </comp>
+    <comp ref="LED34">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B148</tstamp>
+    </comp>
+    <comp ref="LED35">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B14F</tstamp>
+    </comp>
+    <comp ref="LED36">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B156</tstamp>
+    </comp>
+    <comp ref="C104-33">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B15D</tstamp>
+    </comp>
+    <comp ref="C104-34">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B164</tstamp>
+    </comp>
+    <comp ref="C104-35">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B16B</tstamp>
+    </comp>
+    <comp ref="C104-36">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B172</tstamp>
+    </comp>
+    <comp ref="LED37">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B179</tstamp>
+    </comp>
+    <comp ref="LED38">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B180</tstamp>
+    </comp>
+    <comp ref="LED39">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B187</tstamp>
+    </comp>
+    <comp ref="LED40">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B18E</tstamp>
+    </comp>
+    <comp ref="C104-37">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B195</tstamp>
+    </comp>
+    <comp ref="C104-38">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B19C</tstamp>
+    </comp>
+    <comp ref="C104-39">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1A3</tstamp>
+    </comp>
+    <comp ref="C104-40">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1AA</tstamp>
+    </comp>
+    <comp ref="LED41">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1B1</tstamp>
+    </comp>
+    <comp ref="LED42">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1B8</tstamp>
+    </comp>
+    <comp ref="LED43">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1BF</tstamp>
+    </comp>
+    <comp ref="LED44">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1C6</tstamp>
+    </comp>
+    <comp ref="C104-41">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1CD</tstamp>
+    </comp>
+    <comp ref="C104-42">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1D4</tstamp>
+    </comp>
+    <comp ref="C104-43">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1DB</tstamp>
+    </comp>
+    <comp ref="C104-44">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1E2</tstamp>
+    </comp>
+    <comp ref="LED45">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1F0</tstamp>
+    </comp>
+    <comp ref="LED46">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1F7</tstamp>
+    </comp>
+    <comp ref="LED47">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B1FE</tstamp>
+    </comp>
+    <comp ref="C104-45">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B20C</tstamp>
+    </comp>
+    <comp ref="C104-46">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B213</tstamp>
+    </comp>
+    <comp ref="C104-47">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B21A</tstamp>
+    </comp>
+    <comp ref="LED32">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B731</tstamp>
+    </comp>
+    <comp ref="LED31">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B738</tstamp>
+    </comp>
+    <comp ref="LED30">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B73F</tstamp>
+    </comp>
+    <comp ref="LED29">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B746</tstamp>
+    </comp>
+    <comp ref="C104-32">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B74D</tstamp>
+    </comp>
+    <comp ref="C104-31">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B754</tstamp>
+    </comp>
+    <comp ref="C104-30">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B75B</tstamp>
+    </comp>
+    <comp ref="C104-29">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B762</tstamp>
+    </comp>
+    <comp ref="LED28">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B769</tstamp>
+    </comp>
+    <comp ref="LED27">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B770</tstamp>
+    </comp>
+    <comp ref="LED26">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B777</tstamp>
+    </comp>
+    <comp ref="LED25">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B77E</tstamp>
+    </comp>
+    <comp ref="C104-28">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B785</tstamp>
+    </comp>
+    <comp ref="C104-27">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B78C</tstamp>
+    </comp>
+    <comp ref="C104-26">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B793</tstamp>
+    </comp>
+    <comp ref="C104-25">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B79A</tstamp>
+    </comp>
+    <comp ref="LED24">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7A1</tstamp>
+    </comp>
+    <comp ref="LED23">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7A8</tstamp>
+    </comp>
+    <comp ref="LED22">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7AF</tstamp>
+    </comp>
+    <comp ref="LED21">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7B6</tstamp>
+    </comp>
+    <comp ref="C104-24">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7BD</tstamp>
+    </comp>
+    <comp ref="C104-23">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7C4</tstamp>
+    </comp>
+    <comp ref="C104-22">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7CB</tstamp>
+    </comp>
+    <comp ref="C104-21">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7D2</tstamp>
+    </comp>
+    <comp ref="LED20">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7D9</tstamp>
+    </comp>
+    <comp ref="LED19">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7E0</tstamp>
+    </comp>
+    <comp ref="LED18">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7E7</tstamp>
+    </comp>
+    <comp ref="LED17">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7EE</tstamp>
+    </comp>
+    <comp ref="C104-20">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7F5</tstamp>
+    </comp>
+    <comp ref="C104-19">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B7FC</tstamp>
+    </comp>
+    <comp ref="C104-18">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B803</tstamp>
+    </comp>
+    <comp ref="C104-17">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769B80A</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB19</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB20</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB27</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB2E</tstamp>
+    </comp>
+    <comp ref="C104-1">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB35</tstamp>
+    </comp>
+    <comp ref="C104-2">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB3C</tstamp>
+    </comp>
+    <comp ref="C104-3">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB43</tstamp>
+    </comp>
+    <comp ref="C104-4">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB4A</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB51</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB58</tstamp>
+    </comp>
+    <comp ref="LED7">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB5F</tstamp>
+    </comp>
+    <comp ref="LED8">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB66</tstamp>
+    </comp>
+    <comp ref="C104-5">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB6D</tstamp>
+    </comp>
+    <comp ref="C104-6">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB74</tstamp>
+    </comp>
+    <comp ref="C104-7">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB7B</tstamp>
+    </comp>
+    <comp ref="C104-8">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB82</tstamp>
+    </comp>
+    <comp ref="LED9">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB89</tstamp>
+    </comp>
+    <comp ref="LED10">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB90</tstamp>
+    </comp>
+    <comp ref="LED11">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB97</tstamp>
+    </comp>
+    <comp ref="LED12">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FB9E</tstamp>
+    </comp>
+    <comp ref="C104-9">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBA5</tstamp>
+    </comp>
+    <comp ref="C104-10">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBAC</tstamp>
+    </comp>
+    <comp ref="C104-11">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBB3</tstamp>
+    </comp>
+    <comp ref="C104-12">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBBA</tstamp>
+    </comp>
+    <comp ref="LED13">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBC1</tstamp>
+    </comp>
+    <comp ref="LED14">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBC8</tstamp>
+    </comp>
+    <comp ref="LED15">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBCF</tstamp>
+    </comp>
+    <comp ref="LED16">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBD6</tstamp>
+    </comp>
+    <comp ref="C104-13">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBDD</tstamp>
+    </comp>
+    <comp ref="C104-14">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBE4</tstamp>
+    </comp>
+    <comp ref="C104-15">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBEB</tstamp>
+    </comp>
+    <comp ref="C104-16">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5769FBF2</tstamp>
+    </comp>
+    <comp ref="C104-64">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>576E0C13</tstamp>
+    </comp>
+    <comp ref="LED50">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5776C79B</tstamp>
+    </comp>
+    <comp ref="LED60">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57773780</tstamp>
+    </comp>
+    <comp ref="C104-60">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57773786</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57702DA6</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57704172</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57704ADD</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57706973</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57707FE6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>57709BD5</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5770B369</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>0</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardBacklight/" tstamps="/577EF6FE/"/>
+      <tstamp>5770CD5D</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>470</value>
+      <footprint>Keyboard:0805R</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA2B8</tstamp>
+    </comp>
+    <comp ref="LED87">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA38F</tstamp>
+    </comp>
+    <comp ref="LED86">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA396</tstamp>
+    </comp>
+    <comp ref="LED85">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA39D</tstamp>
+    </comp>
+    <comp ref="LED84">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3A4</tstamp>
+    </comp>
+    <comp ref="C104-87">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3AB</tstamp>
+    </comp>
+    <comp ref="C104-86">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3B2</tstamp>
+    </comp>
+    <comp ref="C104-85">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3B9</tstamp>
+    </comp>
+    <comp ref="C104-84">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3C0</tstamp>
+    </comp>
+    <comp ref="LED83">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3C7</tstamp>
+    </comp>
+    <comp ref="LED82">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3CE</tstamp>
+    </comp>
+    <comp ref="LED81">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3D5</tstamp>
+    </comp>
+    <comp ref="LED80">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3DC</tstamp>
+    </comp>
+    <comp ref="C104-83">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3E3</tstamp>
+    </comp>
+    <comp ref="C104-82">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3EA</tstamp>
+    </comp>
+    <comp ref="C104-81">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3F1</tstamp>
+    </comp>
+    <comp ref="C104-80">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577BA3F8</tstamp>
+    </comp>
+    <comp ref="LED72">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765AB84</tstamp>
+    </comp>
+    <comp ref="LED73">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765AB8A</tstamp>
+    </comp>
+    <comp ref="LED74">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765AB90</tstamp>
+    </comp>
+    <comp ref="LED75">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765AB96</tstamp>
+    </comp>
+    <comp ref="C104-72">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765AB9C</tstamp>
+    </comp>
+    <comp ref="C104-73">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABA2</tstamp>
+    </comp>
+    <comp ref="C104-74">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABA8</tstamp>
+    </comp>
+    <comp ref="C104-75">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABAE</tstamp>
+    </comp>
+    <comp ref="LED76">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABB4</tstamp>
+    </comp>
+    <comp ref="LED77">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABBA</tstamp>
+    </comp>
+    <comp ref="LED78">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABC0</tstamp>
+    </comp>
+    <comp ref="LED79">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABC6</tstamp>
+    </comp>
+    <comp ref="C104-76">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABCC</tstamp>
+    </comp>
+    <comp ref="C104-77">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABD2</tstamp>
+    </comp>
+    <comp ref="C104-78">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABD8</tstamp>
+    </comp>
+    <comp ref="C104-79">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5765ABDE</tstamp>
+    </comp>
+    <comp ref="LED88">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>57766458</tstamp>
+    </comp>
+    <comp ref="LED89">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776645E</tstamp>
+    </comp>
+    <comp ref="LED90">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>57766464</tstamp>
+    </comp>
+    <comp ref="LED91">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776646A</tstamp>
+    </comp>
+    <comp ref="C104-88">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>57766470</tstamp>
+    </comp>
+    <comp ref="C104-89">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>57766476</tstamp>
+    </comp>
+    <comp ref="C104-90">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776647C</tstamp>
+    </comp>
+    <comp ref="C104-91">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>57766482</tstamp>
+    </comp>
+    <comp ref="LED92">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>57766488</tstamp>
+    </comp>
+    <comp ref="LED93">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776648E</tstamp>
+    </comp>
+    <comp ref="LED94">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>57766494</tstamp>
+    </comp>
+    <comp ref="LED95">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776649A</tstamp>
+    </comp>
+    <comp ref="C104-92">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577664A0</tstamp>
+    </comp>
+    <comp ref="C104-93">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577664A6</tstamp>
+    </comp>
+    <comp ref="C104-94">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577664AC</tstamp>
+    </comp>
+    <comp ref="C104-95">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>577664B2</tstamp>
+    </comp>
+    <comp ref="LED103">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B411</tstamp>
+    </comp>
+    <comp ref="LED102">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B417</tstamp>
+    </comp>
+    <comp ref="LED101">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B41D</tstamp>
+    </comp>
+    <comp ref="LED100">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B423</tstamp>
+    </comp>
+    <comp ref="C104-103">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B429</tstamp>
+    </comp>
+    <comp ref="C104-102">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B42F</tstamp>
+    </comp>
+    <comp ref="C104-101">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B435</tstamp>
+    </comp>
+    <comp ref="C104-100">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B43B</tstamp>
+    </comp>
+    <comp ref="LED99">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B441</tstamp>
+    </comp>
+    <comp ref="LED98">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B447</tstamp>
+    </comp>
+    <comp ref="LED97">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B44D</tstamp>
+    </comp>
+    <comp ref="LED96">
+      <value>SK6812Mini</value>
+      <footprint>Keyboard:Sk6812Mini</footprint>
+      <libsource lib="Keyboard" part="SK6812Mini"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B453</tstamp>
+    </comp>
+    <comp ref="C104-99">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B459</tstamp>
+    </comp>
+    <comp ref="C104-98">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B45F</tstamp>
+    </comp>
+    <comp ref="C104-97">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B465</tstamp>
+    </comp>
+    <comp ref="C104-96">
+      <value>.1uF</value>
+      <footprint>Keyboard:0805C</footprint>
+      <libsource lib="Keyboard" part=".1uF"/>
+      <sheetpath names="/keyboardUnderglow/" tstamps="/5780BB16/"/>
+      <tstamp>5776B46B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Keyboard" part=".1uF">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C104-</field>
+        <field name="Value">.1uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard-cache" part="ASX4">
+      <footprints>
+        <fp>aker</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ASX4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard-cache" part="ATMEGA32U4">
+      <footprints>
+        <fp>TQFP44</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATMEGA32U4</field>
+        <field name="Footprint">TQFP44</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(INT6/AIN0)PE6" type="BiDi"/>
+        <pin num="2" name="UVcc" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGnd" type="power_in"/>
+        <pin num="6" name="Ucap" type="input"/>
+        <pin num="7" name="VBus" type="input"/>
+        <pin num="8" name="(SS/PCINT0)PB0" type="BiDi"/>
+        <pin num="9" name="(PCINT1/SCLK)PB1" type="BiDi"/>
+        <pin num="10" name="(PDI/PCINT2/MOSI)PB2" type="BiDi"/>
+        <pin num="11" name="(PDO/PCINT3/MISO)PB3" type="BiDi"/>
+        <pin num="12" name="(PCINT7/OC0A/OC1C/~RTS~)PB7" type="BiDi"/>
+        <pin num="13" name="~RESET~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="BiDi"/>
+        <pin num="17" name="XTAL1" type="BiDi"/>
+        <pin num="18" name="(OC0B/SCL/INT0)PD0" type="BiDi"/>
+        <pin num="19" name="(SDA/INT1)PD1" type="BiDi"/>
+        <pin num="20" name="(RXD1/INT2)PD2" type="BiDi"/>
+        <pin num="21" name="(TXD1/INT3)PD3" type="BiDi"/>
+        <pin num="22" name="(XCK1/~CTS~)PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="(ICP1/ADC8)PD4" type="BiDi"/>
+        <pin num="26" name="(T1/~OC4D~/ADC9)PD6" type="BiDi"/>
+        <pin num="27" name="(T0/OC4D/ADC10)PD7" type="BiDi"/>
+        <pin num="28" name="(PCINT4/ADC11)PB4" type="BiDi"/>
+        <pin num="29" name="(PCINT5/OC1A/~OC4B~/ADC12)PB5" type="BiDi"/>
+        <pin num="30" name="(PCINT6/OC1B/OC4B/ADC13)PB6" type="BiDi"/>
+        <pin num="31" name="(OC3A/~OC4A~)PC6" type="BiDi"/>
+        <pin num="32" name="(ICP3/CLK0/OC4A)PC7" type="BiDi"/>
+        <pin num="33" name="(~HWB~)PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="(ADC7/TDI)PF7" type="BiDi"/>
+        <pin num="37" name="(ADC6/TDO)PF6" type="BiDi"/>
+        <pin num="38" name="(ADC5/TMS)PF5" type="BiDi"/>
+        <pin num="39" name="(ADC4/TCK)PF4" type="BiDi"/>
+        <pin num="40" name="(ADC1)PF1" type="BiDi"/>
+        <pin num="41" name="(ADC0)PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="input"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Keyboard" part="BlueSMiRF">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BlueSMiRF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CTS" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="TX" type="input"/>
+        <pin num="5" name="RX" type="input"/>
+        <pin num="6" name="RTS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Keyboard" part="Bluefruit-EZ-Key">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">Bluefruit-EZ-Key</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX" type="input"/>
+        <pin num="2" name="RX" type="input"/>
+        <pin num="6" name="RS" type="input"/>
+        <pin num="9" name="VIN" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="GND" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard-cache" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Keyboard" part="DLED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DLED</field>
+        <field name="Value">DLED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard-cache" part="DTSM-6">
+      <fields>
+        <field name="Reference">PB</field>
+        <field name="Value">DTSM-6</field>
+        <field name="Footprint">switch-tact-DTSM-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Keyboard" part="MCP73833T-AMI/MF">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP73833T-AMI/MF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="input"/>
+        <pin num="2" name="VDD2" type="input"/>
+        <pin num="3" name="STAT1" type="input"/>
+        <pin num="4" name="STAT2" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="PROG" type="input"/>
+        <pin num="7" name="~PG" type="input"/>
+        <pin num="8" name="THERM" type="input"/>
+        <pin num="9" name="VBAT1" type="input"/>
+        <pin num="10" name="VBAT2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard-cache" part="MX1A">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MX1A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Keyboard" part="SK6812Mini">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SK6812Mini</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="VSS" type="BiDi"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VDD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Switch_SPDT_x2">
+      <description>Double Single Pole Double Throw (SPDT) switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch_SPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard-cache" part="USBMINI_B05">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USBMINI_B05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="power_out"/>
+        <pin num="5" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="Keyboard">
+      <uri>C:\Users\David\Dropbox\Personal\Keyboard\Kicad Project\Libraries\Keyboard.lib</uri>
+    </library>
+    <library logical="keyboard-cache">
+      <uri>C:\Users\David\Dropbox\Personal\Keyboard\Kicad Project\keyboard-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/XTAL1">
+      <node ref="C6" pin="1"/>
+      <node ref="IC1" pin="17"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="2" name="/Matrix/col7">
+      <node ref="D23" pin="2"/>
+      <node ref="D65" pin="2"/>
+      <node ref="P7" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="3" name="/Matrix/col15">
+      <node ref="D46" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D70" pin="2"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="P5" pin="1"/>
+      <node ref="D60" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="LED62" pin="2"/>
+      <node ref="LED64" pin="2"/>
+      <node ref="LED63" pin="2"/>
+      <node ref="C104-62" pin="2"/>
+      <node ref="C104-63" pin="2"/>
+      <node ref="LED65" pin="2"/>
+      <node ref="C104-65" pin="2"/>
+      <node ref="LED66" pin="2"/>
+      <node ref="LED67" pin="2"/>
+      <node ref="C104-66" pin="2"/>
+      <node ref="C104-67" pin="2"/>
+      <node ref="LED50" pin="2"/>
+      <node ref="LED60" pin="2"/>
+      <node ref="C104-60" pin="2"/>
+      <node ref="C104-97" pin="2"/>
+      <node ref="C104-98" pin="2"/>
+      <node ref="C104-99" pin="2"/>
+      <node ref="LED96" pin="2"/>
+      <node ref="C104-100" pin="2"/>
+      <node ref="LED97" pin="2"/>
+      <node ref="LED98" pin="2"/>
+      <node ref="LED99" pin="2"/>
+      <node ref="LED103" pin="2"/>
+      <node ref="C104-82" pin="2"/>
+      <node ref="C104-80" pin="2"/>
+      <node ref="C104-81" pin="2"/>
+      <node ref="C104-101" pin="2"/>
+      <node ref="C104-102" pin="2"/>
+      <node ref="C104-103" pin="2"/>
+      <node ref="LED100" pin="2"/>
+      <node ref="LED101" pin="2"/>
+      <node ref="LED102" pin="2"/>
+      <node ref="LED93" pin="2"/>
+      <node ref="C104-90" pin="2"/>
+      <node ref="C104-89" pin="2"/>
+      <node ref="C104-88" pin="2"/>
+      <node ref="LED91" pin="2"/>
+      <node ref="LED90" pin="2"/>
+      <node ref="LED89" pin="2"/>
+      <node ref="LED88" pin="2"/>
+      <node ref="C104-94" pin="2"/>
+      <node ref="C104-93" pin="2"/>
+      <node ref="C104-92" pin="2"/>
+      <node ref="LED95" pin="2"/>
+      <node ref="C104-91" pin="2"/>
+      <node ref="LED94" pin="2"/>
+      <node ref="LED92" pin="2"/>
+      <node ref="C104-96" pin="2"/>
+      <node ref="C104-77" pin="2"/>
+      <node ref="C104-74" pin="2"/>
+      <node ref="C104-73" pin="2"/>
+      <node ref="C104-72" pin="2"/>
+      <node ref="LED75" pin="2"/>
+      <node ref="LED73" pin="2"/>
+      <node ref="LED72" pin="2"/>
+      <node ref="LED74" pin="2"/>
+      <node ref="C104-76" pin="2"/>
+      <node ref="LED79" pin="2"/>
+      <node ref="LED78" pin="2"/>
+      <node ref="LED77" pin="2"/>
+      <node ref="LED76" pin="2"/>
+      <node ref="C104-75" pin="2"/>
+      <node ref="C104-83" pin="2"/>
+      <node ref="LED84" pin="2"/>
+      <node ref="C104-79" pin="2"/>
+      <node ref="C104-78" pin="2"/>
+      <node ref="C104-87" pin="2"/>
+      <node ref="LED85" pin="2"/>
+      <node ref="LED86" pin="2"/>
+      <node ref="LED87" pin="2"/>
+      <node ref="LED80" pin="2"/>
+      <node ref="LED81" pin="2"/>
+      <node ref="LED82" pin="2"/>
+      <node ref="LED83" pin="2"/>
+      <node ref="C104-84" pin="2"/>
+      <node ref="C104-85" pin="2"/>
+      <node ref="C104-86" pin="2"/>
+      <node ref="C104-23" pin="2"/>
+      <node ref="LED23" pin="2"/>
+      <node ref="LED22" pin="2"/>
+      <node ref="LED21" pin="2"/>
+      <node ref="C104-22" pin="2"/>
+      <node ref="C104-21" pin="2"/>
+      <node ref="LED20" pin="2"/>
+      <node ref="LED19" pin="2"/>
+      <node ref="C104-24" pin="2"/>
+      <node ref="LED27" pin="2"/>
+      <node ref="LED26" pin="2"/>
+      <node ref="LED25" pin="2"/>
+      <node ref="C104-28" pin="2"/>
+      <node ref="C104-27" pin="2"/>
+      <node ref="C104-26" pin="2"/>
+      <node ref="C104-25" pin="2"/>
+      <node ref="LED24" pin="2"/>
+      <node ref="LED4" pin="2"/>
+      <node ref="LED8" pin="2"/>
+      <node ref="C104-5" pin="2"/>
+      <node ref="C104-6" pin="2"/>
+      <node ref="C104-7" pin="2"/>
+      <node ref="C104-8" pin="2"/>
+      <node ref="LED12" pin="2"/>
+      <node ref="LED9" pin="2"/>
+      <node ref="LED10" pin="2"/>
+      <node ref="LED11" pin="2"/>
+      <node ref="C104-1" pin="2"/>
+      <node ref="LED68" pin="2"/>
+      <node ref="C104-13" pin="2"/>
+      <node ref="C104-14" pin="2"/>
+      <node ref="C104-15" pin="2"/>
+      <node ref="C104-16" pin="2"/>
+      <node ref="C104-64" pin="2"/>
+      <node ref="C104-19" pin="2"/>
+      <node ref="C104-2" pin="2"/>
+      <node ref="C104-3" pin="2"/>
+      <node ref="C104-4" pin="2"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="LED6" pin="2"/>
+      <node ref="LED7" pin="2"/>
+      <node ref="LED18" pin="2"/>
+      <node ref="LED17" pin="2"/>
+      <node ref="C104-20" pin="2"/>
+      <node ref="LED3" pin="2"/>
+      <node ref="C104-18" pin="2"/>
+      <node ref="C104-17" pin="2"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="LED16" pin="2"/>
+      <node ref="C104-38" pin="2"/>
+      <node ref="C104-95" pin="2"/>
+      <node ref="C104-40" pin="2"/>
+      <node ref="C104-39" pin="2"/>
+      <node ref="C104-37" pin="2"/>
+      <node ref="LED41" pin="2"/>
+      <node ref="LED42" pin="2"/>
+      <node ref="LED43" pin="2"/>
+      <node ref="LED40" pin="2"/>
+      <node ref="LED36" pin="2"/>
+      <node ref="C104-33" pin="2"/>
+      <node ref="C104-34" pin="2"/>
+      <node ref="C104-35" pin="2"/>
+      <node ref="LED44" pin="2"/>
+      <node ref="LED37" pin="2"/>
+      <node ref="LED38" pin="2"/>
+      <node ref="LED39" pin="2"/>
+      <node ref="C104-36" pin="2"/>
+      <node ref="LED32" pin="2"/>
+      <node ref="C104-55" pin="2"/>
+      <node ref="C104-69" pin="2"/>
+      <node ref="C104-70" pin="2"/>
+      <node ref="C104-71" pin="2"/>
+      <node ref="LED61" pin="2"/>
+      <node ref="C104-51" pin="2"/>
+      <node ref="LED49" pin="2"/>
+      <node ref="LED48" pin="2"/>
+      <node ref="C104-49" pin="2"/>
+      <node ref="C104-50" pin="2"/>
+      <node ref="C104-48" pin="2"/>
+      <node ref="LED33" pin="2"/>
+      <node ref="LED34" pin="2"/>
+      <node ref="LED35" pin="2"/>
+      <node ref="C104-57" pin="2"/>
+      <node ref="C104-56" pin="2"/>
+      <node ref="C104-68" pin="2"/>
+      <node ref="LED54" pin="2"/>
+      <node ref="LED53" pin="2"/>
+      <node ref="C104-52" pin="2"/>
+      <node ref="LED52" pin="2"/>
+      <node ref="LED51" pin="2"/>
+      <node ref="C104-54" pin="2"/>
+      <node ref="C104-53" pin="2"/>
+      <node ref="C104-9" pin="2"/>
+      <node ref="C104-10" pin="2"/>
+      <node ref="C104-11" pin="2"/>
+      <node ref="C104-12" pin="2"/>
+      <node ref="LED13" pin="2"/>
+      <node ref="LED14" pin="2"/>
+      <node ref="LED15" pin="2"/>
+      <node ref="LED47" pin="2"/>
+      <node ref="LED31" pin="2"/>
+      <node ref="LED30" pin="2"/>
+      <node ref="LED29" pin="2"/>
+      <node ref="C104-32" pin="2"/>
+      <node ref="C104-31" pin="2"/>
+      <node ref="C104-30" pin="2"/>
+      <node ref="C104-29" pin="2"/>
+      <node ref="C104-41" pin="2"/>
+      <node ref="C104-42" pin="2"/>
+      <node ref="C104-43" pin="2"/>
+      <node ref="C104-44" pin="2"/>
+      <node ref="LED45" pin="2"/>
+      <node ref="C104-47" pin="2"/>
+      <node ref="LED46" pin="2"/>
+      <node ref="C104-45" pin="2"/>
+      <node ref="C104-46" pin="2"/>
+      <node ref="LED59" pin="2"/>
+      <node ref="C104-61" pin="2"/>
+      <node ref="C104-59" pin="2"/>
+      <node ref="LED58" pin="2"/>
+      <node ref="LED56" pin="2"/>
+      <node ref="LED55" pin="2"/>
+      <node ref="C104-58" pin="2"/>
+      <node ref="LED57" pin="2"/>
+      <node ref="LED28" pin="2"/>
+      <node ref="LED69" pin="2"/>
+      <node ref="LED70" pin="2"/>
+      <node ref="LED71" pin="2"/>
+      <node ref="IC1" pin="35"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="PB2" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="PB1" pin="1"/>
+      <node ref="P13" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="IC1" pin="23"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="IC1" pin="43"/>
+      <node ref="P14" pin="1"/>
+      <node ref="X1" pin="2"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="R9" pin="1"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="P10" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="IC3" pin="11"/>
+      <node ref="IC3" pin="10"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="IC3" pin="12"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="C104-60" pin="1"/>
+      <node ref="LED18" pin="4"/>
+      <node ref="C104-24" pin="1"/>
+      <node ref="C104-4" pin="1"/>
+      <node ref="LED19" pin="4"/>
+      <node ref="LED7" pin="4"/>
+      <node ref="LED4" pin="4"/>
+      <node ref="C104-25" pin="1"/>
+      <node ref="C104-28" pin="1"/>
+      <node ref="LED25" pin="4"/>
+      <node ref="C104-27" pin="1"/>
+      <node ref="LED21" pin="4"/>
+      <node ref="C104-26" pin="1"/>
+      <node ref="LED26" pin="4"/>
+      <node ref="LED27" pin="4"/>
+      <node ref="LED28" pin="4"/>
+      <node ref="LED20" pin="4"/>
+      <node ref="LED6" pin="4"/>
+      <node ref="C104-21" pin="1"/>
+      <node ref="LED24" pin="4"/>
+      <node ref="LED3" pin="4"/>
+      <node ref="C104-22" pin="1"/>
+      <node ref="C104-1" pin="1"/>
+      <node ref="C104-2" pin="1"/>
+      <node ref="C104-23" pin="1"/>
+      <node ref="C104-3" pin="1"/>
+      <node ref="LED5" pin="4"/>
+      <node ref="IC4" pin="2"/>
+      <node ref="LED2" pin="4"/>
+      <node ref="LED1" pin="4"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C104-17" pin="1"/>
+      <node ref="C104-18" pin="1"/>
+      <node ref="C104-19" pin="1"/>
+      <node ref="C104-20" pin="1"/>
+      <node ref="LED17" pin="4"/>
+      <node ref="DLED1" pin="2"/>
+      <node ref="LED48" pin="4"/>
+      <node ref="LED34" pin="4"/>
+      <node ref="LED33" pin="4"/>
+      <node ref="C104-48" pin="1"/>
+      <node ref="C104-57" pin="1"/>
+      <node ref="C104-49" pin="1"/>
+      <node ref="C104-50" pin="1"/>
+      <node ref="LED49" pin="4"/>
+      <node ref="C104-51" pin="1"/>
+      <node ref="LED61" pin="4"/>
+      <node ref="C104-71" pin="1"/>
+      <node ref="C104-70" pin="1"/>
+      <node ref="C104-69" pin="1"/>
+      <node ref="C104-52" pin="1"/>
+      <node ref="C104-53" pin="1"/>
+      <node ref="C104-54" pin="1"/>
+      <node ref="LED51" pin="4"/>
+      <node ref="R5" pin="1"/>
+      <node ref="LED52" pin="4"/>
+      <node ref="LED54" pin="4"/>
+      <node ref="C104-55" pin="1"/>
+      <node ref="C104-56" pin="1"/>
+      <node ref="LED46" pin="4"/>
+      <node ref="C104-61" pin="1"/>
+      <node ref="LED59" pin="4"/>
+      <node ref="LED45" pin="4"/>
+      <node ref="C104-47" pin="1"/>
+      <node ref="C104-46" pin="1"/>
+      <node ref="C104-45" pin="1"/>
+      <node ref="LED47" pin="4"/>
+      <node ref="C104-59" pin="1"/>
+      <node ref="C104-44" pin="1"/>
+      <node ref="C104-43" pin="1"/>
+      <node ref="C104-42" pin="1"/>
+      <node ref="C104-41" pin="1"/>
+      <node ref="LED44" pin="4"/>
+      <node ref="C104-68" pin="1"/>
+      <node ref="LED71" pin="4"/>
+      <node ref="LED70" pin="4"/>
+      <node ref="LED69" pin="4"/>
+      <node ref="LED68" pin="4"/>
+      <node ref="C104-58" pin="1"/>
+      <node ref="LED53" pin="4"/>
+      <node ref="LED55" pin="4"/>
+      <node ref="LED56" pin="4"/>
+      <node ref="LED57" pin="4"/>
+      <node ref="LED58" pin="4"/>
+      <node ref="C104-13" pin="1"/>
+      <node ref="C104-14" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="LED16" pin="4"/>
+      <node ref="C104-64" pin="1"/>
+      <node ref="LED22" pin="4"/>
+      <node ref="LED23" pin="4"/>
+      <node ref="IC2" pin="9"/>
+      <node ref="IC2" pin="10"/>
+      <node ref="C104-16" pin="1"/>
+      <node ref="C104-15" pin="1"/>
+      <node ref="C104-12" pin="1"/>
+      <node ref="LED15" pin="4"/>
+      <node ref="LED14" pin="4"/>
+      <node ref="LED13" pin="4"/>
+      <node ref="C104-11" pin="1"/>
+      <node ref="C104-10" pin="1"/>
+      <node ref="C104-9" pin="1"/>
+      <node ref="LED12" pin="4"/>
+      <node ref="LED11" pin="4"/>
+      <node ref="LED10" pin="4"/>
+      <node ref="LED9" pin="4"/>
+      <node ref="C104-8" pin="1"/>
+      <node ref="C104-7" pin="1"/>
+      <node ref="C104-6" pin="1"/>
+      <node ref="C104-5" pin="1"/>
+      <node ref="LED8" pin="4"/>
+      <node ref="C104-62" pin="1"/>
+      <node ref="C104-67" pin="1"/>
+      <node ref="C104-66" pin="1"/>
+      <node ref="LED67" pin="4"/>
+      <node ref="LED66" pin="4"/>
+      <node ref="LED62" pin="4"/>
+      <node ref="C104-65" pin="1"/>
+      <node ref="LED65" pin="4"/>
+      <node ref="C104-63" pin="1"/>
+      <node ref="LED63" pin="4"/>
+      <node ref="LED64" pin="4"/>
+      <node ref="R11" pin="1"/>
+      <node ref="LED50" pin="4"/>
+      <node ref="IC3" pin="9"/>
+      <node ref="LED60" pin="4"/>
+      <node ref="LED100" pin="4"/>
+      <node ref="C104-103" pin="1"/>
+      <node ref="C104-102" pin="1"/>
+      <node ref="C104-101" pin="1"/>
+      <node ref="C104-100" pin="1"/>
+      <node ref="C104-82" pin="1"/>
+      <node ref="C104-81" pin="1"/>
+      <node ref="C104-80" pin="1"/>
+      <node ref="LED97" pin="4"/>
+      <node ref="LED99" pin="4"/>
+      <node ref="LED98" pin="4"/>
+      <node ref="LED96" pin="4"/>
+      <node ref="C104-99" pin="1"/>
+      <node ref="C104-98" pin="1"/>
+      <node ref="C104-97" pin="1"/>
+      <node ref="LED103" pin="4"/>
+      <node ref="LED102" pin="4"/>
+      <node ref="LED101" pin="4"/>
+      <node ref="P9" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C104-96" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="LED73" pin="4"/>
+      <node ref="LED77" pin="4"/>
+      <node ref="C104-74" pin="1"/>
+      <node ref="LED78" pin="4"/>
+      <node ref="LED79" pin="4"/>
+      <node ref="C104-76" pin="1"/>
+      <node ref="C104-77" pin="1"/>
+      <node ref="LED72" pin="4"/>
+      <node ref="LED76" pin="4"/>
+      <node ref="LED74" pin="4"/>
+      <node ref="LED75" pin="4"/>
+      <node ref="C104-72" pin="1"/>
+      <node ref="C104-73" pin="1"/>
+      <node ref="C104-75" pin="1"/>
+      <node ref="C104-85" pin="1"/>
+      <node ref="C104-84" pin="1"/>
+      <node ref="LED83" pin="4"/>
+      <node ref="C104-86" pin="1"/>
+      <node ref="LED82" pin="4"/>
+      <node ref="P12" pin="1"/>
+      <node ref="C104-78" pin="1"/>
+      <node ref="C104-79" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C104-87" pin="1"/>
+      <node ref="LED84" pin="4"/>
+      <node ref="LED85" pin="4"/>
+      <node ref="LED87" pin="4"/>
+      <node ref="LED86" pin="4"/>
+      <node ref="C104-83" pin="1"/>
+      <node ref="LED80" pin="4"/>
+      <node ref="LED81" pin="4"/>
+      <node ref="C4" pin="1"/>
+      <node ref="IC1" pin="24"/>
+      <node ref="IC1" pin="34"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="44"/>
+      <node ref="LED38" pin="4"/>
+      <node ref="LED42" pin="4"/>
+      <node ref="LED43" pin="4"/>
+      <node ref="LED36" pin="4"/>
+      <node ref="C104-33" pin="1"/>
+      <node ref="C104-34" pin="1"/>
+      <node ref="C104-35" pin="1"/>
+      <node ref="C104-36" pin="1"/>
+      <node ref="LED37" pin="4"/>
+      <node ref="LED39" pin="4"/>
+      <node ref="LED32" pin="4"/>
+      <node ref="LED31" pin="4"/>
+      <node ref="LED30" pin="4"/>
+      <node ref="LED35" pin="4"/>
+      <node ref="LED29" pin="4"/>
+      <node ref="C104-32" pin="1"/>
+      <node ref="C104-31" pin="1"/>
+      <node ref="C104-30" pin="1"/>
+      <node ref="C104-29" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="C104-40" pin="1"/>
+      <node ref="C104-39" pin="1"/>
+      <node ref="C104-38" pin="1"/>
+      <node ref="C104-37" pin="1"/>
+      <node ref="LED40" pin="4"/>
+      <node ref="LED41" pin="4"/>
+      <node ref="C104-92" pin="1"/>
+      <node ref="LED95" pin="4"/>
+      <node ref="LED93" pin="4"/>
+      <node ref="LED92" pin="4"/>
+      <node ref="LED94" pin="4"/>
+      <node ref="LED90" pin="4"/>
+      <node ref="C104-91" pin="1"/>
+      <node ref="C104-90" pin="1"/>
+      <node ref="C104-89" pin="1"/>
+      <node ref="C104-88" pin="1"/>
+      <node ref="LED91" pin="4"/>
+      <node ref="C104-95" pin="1"/>
+      <node ref="LED89" pin="4"/>
+      <node ref="LED88" pin="4"/>
+      <node ref="C104-94" pin="1"/>
+      <node ref="C104-93" pin="1"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="6" name="/AdafruitBluetooth/TX">
+      <node ref="IC1" pin="21"/>
+      <node ref="IC4" pin="5"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="7" name="/AdafruitBluetooth/RX">
+      <node ref="IC4" pin="4"/>
+      <node ref="P1" pin="1"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="8" name="/Matrix/col8">
+      <node ref="P6" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D54" pin="2"/>
+      <node ref="D40" pin="2"/>
+    </net>
+    <net code="9" name="/keyboardUnderglow/UnderglowOut">
+      <node ref="P11" pin="1"/>
+      <node ref="LED103" pin="1"/>
+    </net>
+    <net code="10" name="Net-(PB1-Pad2)">
+      <node ref="PB1" pin="2"/>
+    </net>
+    <net code="11" name="VDD">
+      <node ref="DLED3" pin="2"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="DLED2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="12" name="/Matrix/row1">
+      <node ref="S3" pin="1"/>
+      <node ref="S15" pin="1"/>
+      <node ref="S16" pin="1"/>
+      <node ref="S8" pin="1"/>
+      <node ref="S7" pin="1"/>
+      <node ref="S6" pin="1"/>
+      <node ref="S5" pin="1"/>
+      <node ref="S4" pin="1"/>
+      <node ref="S13" pin="1"/>
+      <node ref="S12" pin="1"/>
+      <node ref="S11" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="S10" pin="1"/>
+      <node ref="S9" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="S14" pin="1"/>
+    </net>
+    <net code="13" name="/XTAL2">
+      <node ref="IC1" pin="16"/>
+      <node ref="X1" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="14" name="/Ucap">
+      <node ref="IC1" pin="6"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="15" name="/PostResD+">
+      <node ref="R3" pin="1"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="16" name="/PostResD-">
+      <node ref="IC1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(PB1-Pad4)">
+      <node ref="PB1" pin="4"/>
+    </net>
+    <net code="18" name="/~RES">
+      <node ref="IC1" pin="13"/>
+      <node ref="PB1" pin="3"/>
+      <node ref="P8" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="19" name="/Matrix/col5">
+      <node ref="IC1" pin="37"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D51" pin="2"/>
+    </net>
+    <net code="20" name="/Matrix/col3">
+      <node ref="IC1" pin="38"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D49" pin="2"/>
+      <node ref="D64" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="21" name="/Matrix/col2">
+      <node ref="D34" pin="2"/>
+      <node ref="D63" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="IC1" pin="39"/>
+    </net>
+    <net code="22" name="/Matrix/col4">
+      <node ref="D4" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="IC1" pin="40"/>
+    </net>
+    <net code="23" name="/Matrix/col1">
+      <node ref="D48" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="IC1" pin="41"/>
+    </net>
+    <net code="24" name="/Matrix/col16">
+      <node ref="D47" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D71" pin="2"/>
+      <node ref="D61" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="25" name="/Matrix/col9">
+      <node ref="D9" pin="2"/>
+      <node ref="IC1" pin="30"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D55" pin="2"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="26" name="/Matrix/col10">
+      <node ref="IC1" pin="29"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D56" pin="2"/>
+    </net>
+    <net code="27" name="/Matrix/col11">
+      <node ref="D11" pin="2"/>
+      <node ref="IC1" pin="28"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D66" pin="2"/>
+    </net>
+    <net code="28" name="/Matrix/col6">
+      <node ref="D6" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="D52" pin="2"/>
+      <node ref="IC1" pin="36"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="29" name="/Matrix/row2">
+      <node ref="S25" pin="1"/>
+      <node ref="S22" pin="1"/>
+      <node ref="S26" pin="1"/>
+      <node ref="S32" pin="1"/>
+      <node ref="S20" pin="1"/>
+      <node ref="S24" pin="1"/>
+      <node ref="S18" pin="1"/>
+      <node ref="S31" pin="1"/>
+      <node ref="S21" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="S17" pin="1"/>
+      <node ref="S30" pin="1"/>
+      <node ref="S23" pin="1"/>
+      <node ref="S29" pin="1"/>
+      <node ref="S27" pin="1"/>
+      <node ref="S19" pin="1"/>
+      <node ref="S28" pin="1"/>
+    </net>
+    <net code="30" name="/keyboardUnderglow/UnderglowDIN">
+      <node ref="IC1" pin="32"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="31" name="/keyboardBacklight/backlightDIN">
+      <node ref="R12" pin="2"/>
+      <node ref="IC1" pin="31"/>
+    </net>
+    <net code="32" name="/Matrix/col12">
+      <node ref="IC1" pin="27"/>
+      <node ref="D44" pin="2"/>
+      <node ref="D58" pin="2"/>
+      <node ref="D67" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="33" name="/Matrix/col13">
+      <node ref="D68" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="IC1" pin="26"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="34" name="/Matrix/row5">
+      <node ref="S70" pin="1"/>
+      <node ref="S63" pin="1"/>
+      <node ref="S71" pin="1"/>
+      <node ref="S66" pin="1"/>
+      <node ref="S67" pin="1"/>
+      <node ref="S68" pin="1"/>
+      <node ref="S69" pin="1"/>
+      <node ref="S65" pin="1"/>
+      <node ref="IC1" pin="22"/>
+      <node ref="S64" pin="1"/>
+      <node ref="S62" pin="1"/>
+    </net>
+    <net code="35" name="/Matrix/col14">
+      <node ref="D45" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D59" pin="2"/>
+      <node ref="D69" pin="2"/>
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="36" name="/Matrix/row3">
+      <node ref="S35" pin="1"/>
+      <node ref="S36" pin="1"/>
+      <node ref="S34" pin="1"/>
+      <node ref="S33" pin="1"/>
+      <node ref="S45" pin="1"/>
+      <node ref="S40" pin="1"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="S39" pin="1"/>
+      <node ref="S47" pin="1"/>
+      <node ref="S42" pin="1"/>
+      <node ref="S43" pin="1"/>
+      <node ref="S37" pin="1"/>
+      <node ref="S41" pin="1"/>
+      <node ref="S38" pin="1"/>
+      <node ref="S44" pin="1"/>
+      <node ref="S46" pin="1"/>
+    </net>
+    <net code="37" name="/Matrix/row4">
+      <node ref="S48" pin="1"/>
+      <node ref="S60" pin="1"/>
+      <node ref="S52" pin="1"/>
+      <node ref="S61" pin="1"/>
+      <node ref="S53" pin="1"/>
+      <node ref="IC1" pin="19"/>
+      <node ref="S51" pin="1"/>
+      <node ref="S49" pin="1"/>
+      <node ref="S57" pin="1"/>
+      <node ref="S59" pin="1"/>
+      <node ref="S55" pin="1"/>
+      <node ref="S58" pin="1"/>
+      <node ref="S56" pin="1"/>
+      <node ref="S50" pin="1"/>
+      <node ref="S54" pin="1"/>
+    </net>
+    <net code="38" name="/PE2">
+      <node ref="IC1" pin="33"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="39" name="Net-(IC1-Pad42)">
+      <node ref="IC1" pin="42"/>
+    </net>
+    <net code="40" name="/D+">
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="41" name="/D-">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="43" name="/BatteryCharger/BATTERYPOWER">
+      <node ref="SW1" pin="1"/>
+      <node ref="P14" pin="2"/>
+    </net>
+    <net code="44" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="45" name="/BatteryCharger/STAT2">
+      <node ref="IC2" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="46" name="/BatteryCharger/THERM">
+      <node ref="IC2" pin="8"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="47" name="/BatteryCharger/~PG">
+      <node ref="IC2" pin="7"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="48" name="/BatteryCharger/PROG">
+      <node ref="R9" pin="2"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="49" name="Net-(DLED2-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="DLED2" pin="1"/>
+    </net>
+    <net code="50" name="Net-(DLED3-Pad1)">
+      <node ref="DLED3" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="51" name="/BatteryCharger/STAT1">
+      <node ref="IC2" pin="3"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="52" name="Net-(DLED1-Pad1)">
+      <node ref="DLED1" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="53" name="Net-(IC4-Pad6)">
+      <node ref="IC4" pin="6"/>
+    </net>
+    <net code="54" name="Net-(IC4-Pad1)">
+      <node ref="IC4" pin="1"/>
+    </net>
+    <net code="55" name="Net-(PB2-Pad4)">
+      <node ref="PB2" pin="4"/>
+    </net>
+    <net code="56" name="Net-(PB2-Pad2)">
+      <node ref="PB2" pin="2"/>
+    </net>
+    <net code="57" name="/AdafruitBluetooth/BluetoothReset">
+      <node ref="R11" pin="2"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="PB2" pin="3"/>
+    </net>
+    <net code="58" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D3-Pad1)">
+      <node ref="S3" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="60" name="Net-(D4-Pad1)">
+      <node ref="S4" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D7-Pad1)">
+      <node ref="S7" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="63" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="S9" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D8-Pad1)">
+      <node ref="S8" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="65" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="S6" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D5-Pad1)">
+      <node ref="S5" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D49-Pad1)">
+      <node ref="S49" pin="2"/>
+      <node ref="D49" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D28-Pad1)">
+      <node ref="S28" pin="2"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D27-Pad1)">
+      <node ref="S27" pin="2"/>
+      <node ref="D27" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D26-Pad1)">
+      <node ref="D26" pin="1"/>
+      <node ref="S26" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D25-Pad1)">
+      <node ref="D25" pin="1"/>
+      <node ref="S25" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D24-Pad1)">
+      <node ref="D24" pin="1"/>
+      <node ref="S24" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D23-Pad1)">
+      <node ref="D23" pin="1"/>
+      <node ref="S23" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D35-Pad1)">
+      <node ref="S35" pin="2"/>
+      <node ref="D35" pin="1"/>
+    </net>
+    <net code="75" name="Net-(D34-Pad1)">
+      <node ref="S34" pin="2"/>
+      <node ref="D34" pin="1"/>
+    </net>
+    <net code="76" name="Net-(D30-Pad1)">
+      <node ref="S30" pin="2"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="77" name="Net-(D29-Pad1)">
+      <node ref="S29" pin="2"/>
+      <node ref="D29" pin="1"/>
+    </net>
+    <net code="78" name="Net-(D17-Pad1)">
+      <node ref="S17" pin="2"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="79" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="S13" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D18-Pad1)">
+      <node ref="S18" pin="2"/>
+      <node ref="D18" pin="1"/>
+    </net>
+    <net code="81" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1"/>
+      <node ref="S12" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D11-Pad1)">
+      <node ref="S11" pin="2"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D10-Pad1)">
+      <node ref="S10" pin="2"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="84" name="Net-(D22-Pad1)">
+      <node ref="D22" pin="1"/>
+      <node ref="S22" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D21-Pad1)">
+      <node ref="D21" pin="1"/>
+      <node ref="S21" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D20-Pad1)">
+      <node ref="S20" pin="2"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="87" name="Net-(D19-Pad1)">
+      <node ref="S19" pin="2"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="88" name="Net-(D66-Pad1)">
+      <node ref="D66" pin="1"/>
+      <node ref="S66" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D67-Pad1)">
+      <node ref="S67" pin="2"/>
+      <node ref="D67" pin="1"/>
+    </net>
+    <net code="90" name="Net-(D68-Pad1)">
+      <node ref="D68" pin="1"/>
+      <node ref="S68" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D69-Pad1)">
+      <node ref="D69" pin="1"/>
+      <node ref="S69" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D59-Pad1)">
+      <node ref="S59" pin="2"/>
+      <node ref="D59" pin="1"/>
+    </net>
+    <net code="93" name="Net-(D45-Pad1)">
+      <node ref="S45" pin="2"/>
+      <node ref="D45" pin="1"/>
+    </net>
+    <net code="94" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1"/>
+      <node ref="S14" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D48-Pad1)">
+      <node ref="D48" pin="1"/>
+      <node ref="S48" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D16-Pad1)">
+      <node ref="S16" pin="2"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="97" name="Net-(D65-Pad1)">
+      <node ref="D65" pin="1"/>
+      <node ref="S65" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D60-Pad1)">
+      <node ref="S60" pin="2"/>
+      <node ref="D60" pin="1"/>
+    </net>
+    <net code="99" name="Net-(D70-Pad1)">
+      <node ref="S70" pin="2"/>
+      <node ref="D70" pin="1"/>
+    </net>
+    <net code="100" name="Net-(D71-Pad1)">
+      <node ref="D71" pin="1"/>
+      <node ref="S71" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D46-Pad1)">
+      <node ref="S46" pin="2"/>
+      <node ref="D46" pin="1"/>
+    </net>
+    <net code="102" name="Net-(D47-Pad1)">
+      <node ref="D47" pin="1"/>
+      <node ref="S47" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D61-Pad1)">
+      <node ref="S61" pin="2"/>
+      <node ref="D61" pin="1"/>
+    </net>
+    <net code="104" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1"/>
+      <node ref="S15" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D31-Pad1)">
+      <node ref="S31" pin="2"/>
+      <node ref="D31" pin="1"/>
+    </net>
+    <net code="106" name="Net-(D32-Pad1)">
+      <node ref="S32" pin="2"/>
+      <node ref="D32" pin="1"/>
+    </net>
+    <net code="107" name="Net-(D39-Pad1)">
+      <node ref="D39" pin="1"/>
+      <node ref="S39" pin="2"/>
+    </net>
+    <net code="108" name="Net-(D51-Pad1)">
+      <node ref="S51" pin="2"/>
+      <node ref="D51" pin="1"/>
+    </net>
+    <net code="109" name="Net-(D38-Pad1)">
+      <node ref="S38" pin="2"/>
+      <node ref="D38" pin="1"/>
+    </net>
+    <net code="110" name="Net-(D52-Pad1)">
+      <node ref="D52" pin="1"/>
+      <node ref="S52" pin="2"/>
+    </net>
+    <net code="111" name="Net-(D53-Pad1)">
+      <node ref="D53" pin="1"/>
+      <node ref="S53" pin="2"/>
+    </net>
+    <net code="112" name="Net-(D40-Pad1)">
+      <node ref="S40" pin="2"/>
+      <node ref="D40" pin="1"/>
+    </net>
+    <net code="113" name="Net-(D54-Pad1)">
+      <node ref="D54" pin="1"/>
+      <node ref="S54" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D36-Pad1)">
+      <node ref="S36" pin="2"/>
+      <node ref="D36" pin="1"/>
+    </net>
+    <net code="115" name="Net-(D50-Pad1)">
+      <node ref="S50" pin="2"/>
+      <node ref="D50" pin="1"/>
+    </net>
+    <net code="116" name="Net-(D37-Pad1)">
+      <node ref="S37" pin="2"/>
+      <node ref="D37" pin="1"/>
+    </net>
+    <net code="117" name="Net-(D42-Pad1)">
+      <node ref="S42" pin="2"/>
+      <node ref="D42" pin="1"/>
+    </net>
+    <net code="118" name="Net-(D43-Pad1)">
+      <node ref="S43" pin="2"/>
+      <node ref="D43" pin="1"/>
+    </net>
+    <net code="119" name="Net-(D56-Pad1)">
+      <node ref="S56" pin="2"/>
+      <node ref="D56" pin="1"/>
+    </net>
+    <net code="120" name="Net-(D55-Pad1)">
+      <node ref="D55" pin="1"/>
+      <node ref="S55" pin="2"/>
+    </net>
+    <net code="121" name="Net-(D41-Pad1)">
+      <node ref="S41" pin="2"/>
+      <node ref="D41" pin="1"/>
+    </net>
+    <net code="122" name="Net-(D58-Pad1)">
+      <node ref="S58" pin="2"/>
+      <node ref="D58" pin="1"/>
+    </net>
+    <net code="123" name="Net-(D44-Pad1)">
+      <node ref="D44" pin="1"/>
+      <node ref="S44" pin="2"/>
+    </net>
+    <net code="124" name="Net-(D57-Pad1)">
+      <node ref="S57" pin="2"/>
+      <node ref="D57" pin="1"/>
+    </net>
+    <net code="125" name="Net-(D33-Pad1)">
+      <node ref="D33" pin="1"/>
+      <node ref="S33" pin="2"/>
+    </net>
+    <net code="126" name="Net-(D62-Pad1)">
+      <node ref="D62" pin="1"/>
+      <node ref="S62" pin="2"/>
+    </net>
+    <net code="127" name="Net-(D63-Pad1)">
+      <node ref="D63" pin="1"/>
+      <node ref="S63" pin="2"/>
+    </net>
+    <net code="128" name="Net-(D64-Pad1)">
+      <node ref="D64" pin="1"/>
+      <node ref="S64" pin="2"/>
+    </net>
+    <net code="129" name="Net-(LED34-Pad3)">
+      <node ref="LED34" pin="3"/>
+      <node ref="LED35" pin="1"/>
+    </net>
+    <net code="130" name="Net-(LED33-Pad3)">
+      <node ref="LED33" pin="3"/>
+      <node ref="LED34" pin="1"/>
+    </net>
+    <net code="131" name="Net-(LED37-Pad3)">
+      <node ref="LED38" pin="1"/>
+      <node ref="LED37" pin="3"/>
+    </net>
+    <net code="132" name="Net-(LED38-Pad3)">
+      <node ref="LED38" pin="3"/>
+      <node ref="LED39" pin="1"/>
+    </net>
+    <net code="133" name="Net-(LED52-Pad1)">
+      <node ref="LED52" pin="1"/>
+      <node ref="LED53" pin="3"/>
+    </net>
+    <net code="134" name="Net-(LED51-Pad1)">
+      <node ref="LED52" pin="3"/>
+      <node ref="LED51" pin="1"/>
+    </net>
+    <net code="135" name="Net-(LED42-Pad3)">
+      <node ref="LED42" pin="3"/>
+      <node ref="LED43" pin="1"/>
+    </net>
+    <net code="136" name="Net-(LED43-Pad3)">
+      <node ref="LED44" pin="1"/>
+      <node ref="LED43" pin="3"/>
+    </net>
+    <net code="137" name="Net-(LED45-Pad3)">
+      <node ref="LED46" pin="1"/>
+      <node ref="LED45" pin="3"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="138" name="Net-(LED39-Pad3)">
+      <node ref="LED40" pin="1"/>
+      <node ref="LED39" pin="3"/>
+    </net>
+    <net code="139" name="Net-(LED40-Pad3)">
+      <node ref="LED40" pin="3"/>
+      <node ref="LED41" pin="1"/>
+    </net>
+    <net code="140" name="Net-(LED41-Pad3)">
+      <node ref="LED42" pin="1"/>
+      <node ref="LED41" pin="3"/>
+    </net>
+    <net code="141" name="Net-(LED63-Pad3)">
+      <node ref="LED64" pin="1"/>
+      <node ref="LED63" pin="3"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="142" name="Net-(LED15-Pad3)">
+      <node ref="LED15" pin="3"/>
+      <node ref="LED16" pin="1"/>
+    </net>
+    <net code="143" name="Net-(LED64-Pad3)">
+      <node ref="LED65" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="LED64" pin="3"/>
+    </net>
+    <net code="144" name="Net-(LED2-Pad3)">
+      <node ref="LED2" pin="3"/>
+      <node ref="LED3" pin="1"/>
+    </net>
+    <net code="145" name="Net-(LED3-Pad3)">
+      <node ref="LED4" pin="1"/>
+      <node ref="LED3" pin="3"/>
+    </net>
+    <net code="146" name="Net-(LED46-Pad3)">
+      <node ref="LED46" pin="3"/>
+      <node ref="LED47" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="147" name="Net-(LED16-Pad3)">
+      <node ref="LED16" pin="3"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="148" name="Net-(LED62-Pad3)">
+      <node ref="LED63" pin="1"/>
+      <node ref="LED62" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="149" name="Net-(LED54-Pad1)">
+      <node ref="LED55" pin="3"/>
+      <node ref="LED54" pin="1"/>
+    </net>
+    <net code="150" name="Net-(LED55-Pad1)">
+      <node ref="LED55" pin="1"/>
+      <node ref="LED56" pin="3"/>
+    </net>
+    <net code="151" name="Net-(LED53-Pad1)">
+      <node ref="LED53" pin="1"/>
+      <node ref="LED54" pin="3"/>
+    </net>
+    <net code="152" name="Net-(LED57-Pad1)">
+      <node ref="LED57" pin="1"/>
+      <node ref="LED58" pin="3"/>
+    </net>
+    <net code="153" name="Net-(LED56-Pad1)">
+      <node ref="LED56" pin="1"/>
+      <node ref="LED57" pin="3"/>
+    </net>
+    <net code="154" name="Net-(LED4-Pad3)">
+      <node ref="LED5" pin="1"/>
+      <node ref="LED4" pin="3"/>
+    </net>
+    <net code="155" name="Net-(LED5-Pad3)">
+      <node ref="LED6" pin="1"/>
+      <node ref="LED5" pin="3"/>
+    </net>
+    <net code="156" name="Net-(LED6-Pad3)">
+      <node ref="LED6" pin="3"/>
+      <node ref="LED7" pin="1"/>
+    </net>
+    <net code="157" name="Net-(LED7-Pad3)">
+      <node ref="LED7" pin="3"/>
+      <node ref="LED8" pin="1"/>
+    </net>
+    <net code="158" name="Net-(LED1-Pad3)">
+      <node ref="LED1" pin="3"/>
+      <node ref="LED2" pin="1"/>
+    </net>
+    <net code="159" name="Net-(LED13-Pad3)">
+      <node ref="LED14" pin="1"/>
+      <node ref="LED13" pin="3"/>
+    </net>
+    <net code="160" name="Net-(LED12-Pad3)">
+      <node ref="LED12" pin="3"/>
+      <node ref="LED13" pin="1"/>
+    </net>
+    <net code="161" name="Net-(LED14-Pad3)">
+      <node ref="LED15" pin="1"/>
+      <node ref="LED14" pin="3"/>
+    </net>
+    <net code="162" name="Net-(LED8-Pad3)">
+      <node ref="LED8" pin="3"/>
+      <node ref="LED9" pin="1"/>
+    </net>
+    <net code="163" name="Net-(LED10-Pad1)">
+      <node ref="LED9" pin="3"/>
+      <node ref="LED10" pin="1"/>
+    </net>
+    <net code="164" name="Net-(LED10-Pad3)">
+      <node ref="LED10" pin="3"/>
+      <node ref="LED11" pin="1"/>
+    </net>
+    <net code="165" name="Net-(LED11-Pad3)">
+      <node ref="LED11" pin="3"/>
+      <node ref="LED12" pin="1"/>
+    </net>
+    <net code="166" name="Net-(LED26-Pad1)">
+      <node ref="LED26" pin="1"/>
+      <node ref="LED27" pin="3"/>
+    </net>
+    <net code="167" name="Net-(LED28-Pad1)">
+      <node ref="LED29" pin="3"/>
+      <node ref="LED28" pin="1"/>
+    </net>
+    <net code="168" name="Net-(LED27-Pad1)">
+      <node ref="LED28" pin="3"/>
+      <node ref="LED27" pin="1"/>
+    </net>
+    <net code="169" name="Net-(LED25-Pad1)">
+      <node ref="LED25" pin="1"/>
+      <node ref="LED26" pin="3"/>
+    </net>
+    <net code="170" name="Net-(LED30-Pad1)">
+      <node ref="LED31" pin="3"/>
+      <node ref="LED30" pin="1"/>
+    </net>
+    <net code="171" name="Net-(LED31-Pad1)">
+      <node ref="LED31" pin="1"/>
+      <node ref="LED32" pin="3"/>
+    </net>
+    <net code="172" name="Net-(LED29-Pad1)">
+      <node ref="LED30" pin="3"/>
+      <node ref="LED29" pin="1"/>
+    </net>
+    <net code="173" name="Net-(LED20-Pad1)">
+      <node ref="LED20" pin="1"/>
+      <node ref="LED21" pin="3"/>
+    </net>
+    <net code="174" name="Net-(LED19-Pad1)">
+      <node ref="LED19" pin="1"/>
+      <node ref="LED20" pin="3"/>
+    </net>
+    <net code="175" name="Net-(LED18-Pad1)">
+      <node ref="LED18" pin="1"/>
+      <node ref="LED19" pin="3"/>
+    </net>
+    <net code="176" name="Net-(LED17-Pad1)">
+      <node ref="LED17" pin="1"/>
+      <node ref="LED18" pin="3"/>
+    </net>
+    <net code="177" name="Net-(LED24-Pad1)">
+      <node ref="LED24" pin="1"/>
+      <node ref="LED25" pin="3"/>
+    </net>
+    <net code="178" name="Net-(LED23-Pad1)">
+      <node ref="LED23" pin="1"/>
+      <node ref="LED24" pin="3"/>
+    </net>
+    <net code="179" name="Net-(LED22-Pad1)">
+      <node ref="LED22" pin="1"/>
+      <node ref="LED23" pin="3"/>
+    </net>
+    <net code="180" name="Net-(LED21-Pad1)">
+      <node ref="LED22" pin="3"/>
+      <node ref="LED21" pin="1"/>
+    </net>
+    <net code="181" name="Net-(LED48-Pad1)">
+      <node ref="LED48" pin="1"/>
+      <node ref="LED49" pin="3"/>
+    </net>
+    <net code="182" name="Net-(LED70-Pad3)">
+      <node ref="LED70" pin="3"/>
+      <node ref="LED71" pin="1"/>
+    </net>
+    <net code="183" name="Net-(LED49-Pad1)">
+      <node ref="LED50" pin="3"/>
+      <node ref="LED49" pin="1"/>
+    </net>
+    <net code="184" name="Net-(LED58-Pad1)">
+      <node ref="LED58" pin="1"/>
+      <node ref="LED59" pin="3"/>
+    </net>
+    <net code="185" name="Net-(LED36-Pad3)">
+      <node ref="LED36" pin="3"/>
+      <node ref="LED37" pin="1"/>
+    </net>
+    <net code="186" name="Net-(LED67-Pad3)">
+      <node ref="LED67" pin="3"/>
+      <node ref="R20" pin="2"/>
+      <node ref="LED68" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="187" name="Net-(LED68-Pad3)">
+      <node ref="LED69" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="LED68" pin="3"/>
+    </net>
+    <net code="188" name="Net-(LED69-Pad3)">
+      <node ref="LED70" pin="1"/>
+      <node ref="LED69" pin="3"/>
+    </net>
+    <net code="189" name="Net-(LED35-Pad3)">
+      <node ref="LED35" pin="3"/>
+      <node ref="LED36" pin="1"/>
+    </net>
+    <net code="190" name="Net-(LED44-Pad3)">
+      <node ref="LED44" pin="3"/>
+      <node ref="LED45" pin="1"/>
+    </net>
+    <net code="191" name="Net-(LED62-Pad1)">
+      <node ref="LED62" pin="1"/>
+    </net>
+    <net code="192" name="Net-(LED33-Pad1)">
+      <node ref="LED48" pin="3"/>
+      <node ref="LED33" pin="1"/>
+    </net>
+    <net code="193" name="Net-(LED1-Pad1)">
+      <node ref="LED17" pin="3"/>
+      <node ref="LED1" pin="1"/>
+    </net>
+    <net code="194" name="Net-(LED59-Pad1)">
+      <node ref="LED59" pin="1"/>
+      <node ref="LED60" pin="3"/>
+    </net>
+    <net code="195" name="Net-(LED32-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="LED47" pin="3"/>
+      <node ref="LED32" pin="1"/>
+    </net>
+    <net code="196" name="Net-(LED60-Pad1)">
+      <node ref="LED60" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="LED61" pin="3"/>
+    </net>
+    <net code="197" name="Net-(LED61-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="LED71" pin="3"/>
+      <node ref="LED61" pin="1"/>
+    </net>
+    <net code="198" name="Net-(LED65-Pad3)">
+      <node ref="LED66" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="LED65" pin="3"/>
+    </net>
+    <net code="199" name="Net-(LED66-Pad3)">
+      <node ref="LED67" pin="1"/>
+      <node ref="LED66" pin="3"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="200" name="Net-(LED50-Pad1)">
+      <node ref="LED51" pin="3"/>
+      <node ref="LED50" pin="1"/>
+    </net>
+    <net code="201" name="Net-(LED92-Pad3)">
+      <node ref="LED92" pin="3"/>
+      <node ref="LED93" pin="1"/>
+    </net>
+    <net code="202" name="Net-(LED91-Pad3)">
+      <node ref="LED91" pin="3"/>
+      <node ref="LED92" pin="1"/>
+    </net>
+    <net code="203" name="Net-(LED90-Pad3)">
+      <node ref="LED90" pin="3"/>
+      <node ref="LED91" pin="1"/>
+    </net>
+    <net code="204" name="Net-(LED89-Pad3)">
+      <node ref="LED90" pin="1"/>
+      <node ref="LED89" pin="3"/>
+    </net>
+    <net code="205" name="Net-(LED94-Pad3)">
+      <node ref="LED95" pin="1"/>
+      <node ref="LED94" pin="3"/>
+    </net>
+    <net code="206" name="Net-(LED93-Pad3)">
+      <node ref="LED94" pin="1"/>
+      <node ref="LED93" pin="3"/>
+    </net>
+    <net code="207" name="Net-(LED72-Pad1)">
+      <node ref="LED80" pin="3"/>
+      <node ref="LED72" pin="1"/>
+    </net>
+    <net code="208" name="Net-(LED88-Pad3)">
+      <node ref="LED89" pin="1"/>
+      <node ref="LED88" pin="3"/>
+    </net>
+    <net code="209" name="Net-(LED87-Pad1)">
+      <node ref="LED95" pin="3"/>
+      <node ref="LED87" pin="1"/>
+    </net>
+    <net code="210" name="Net-(LED88-Pad1)">
+      <node ref="LED96" pin="3"/>
+      <node ref="LED88" pin="1"/>
+    </net>
+    <net code="211" name="Net-(LED98-Pad1)">
+      <node ref="LED99" pin="3"/>
+      <node ref="LED98" pin="1"/>
+    </net>
+    <net code="212" name="Net-(LED100-Pad3)">
+      <node ref="LED100" pin="3"/>
+      <node ref="LED99" pin="1"/>
+    </net>
+    <net code="213" name="Net-(LED100-Pad1)">
+      <node ref="LED101" pin="3"/>
+      <node ref="LED100" pin="1"/>
+    </net>
+    <net code="214" name="Net-(LED101-Pad1)">
+      <node ref="LED101" pin="1"/>
+      <node ref="LED102" pin="3"/>
+    </net>
+    <net code="215" name="Net-(LED96-Pad1)">
+      <node ref="LED97" pin="3"/>
+      <node ref="LED96" pin="1"/>
+    </net>
+    <net code="216" name="Net-(LED97-Pad1)">
+      <node ref="LED98" pin="3"/>
+      <node ref="LED97" pin="1"/>
+    </net>
+    <net code="217" name="Net-(LED102-Pad1)">
+      <node ref="LED102" pin="1"/>
+      <node ref="LED103" pin="3"/>
+    </net>
+    <net code="218" name="Net-(LED83-Pad1)">
+      <node ref="LED84" pin="3"/>
+      <node ref="LED83" pin="1"/>
+    </net>
+    <net code="219" name="Net-(LED81-Pad1)">
+      <node ref="LED82" pin="3"/>
+      <node ref="LED81" pin="1"/>
+    </net>
+    <net code="220" name="Net-(LED82-Pad1)">
+      <node ref="LED83" pin="3"/>
+      <node ref="LED82" pin="1"/>
+    </net>
+    <net code="221" name="Net-(LED84-Pad1)">
+      <node ref="LED84" pin="1"/>
+      <node ref="LED85" pin="3"/>
+    </net>
+    <net code="222" name="Net-(LED80-Pad1)">
+      <node ref="LED81" pin="3"/>
+      <node ref="LED80" pin="1"/>
+    </net>
+    <net code="223" name="Net-(LED85-Pad1)">
+      <node ref="LED86" pin="3"/>
+      <node ref="LED85" pin="1"/>
+    </net>
+    <net code="224" name="Net-(LED86-Pad1)">
+      <node ref="LED86" pin="1"/>
+      <node ref="LED87" pin="3"/>
+    </net>
+    <net code="225" name="Net-(LED79-Pad3)">
+      <node ref="LED79" pin="3"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="226" name="Net-(LED75-Pad3)">
+      <node ref="LED76" pin="1"/>
+      <node ref="LED75" pin="3"/>
+    </net>
+    <net code="227" name="Net-(LED76-Pad3)">
+      <node ref="LED77" pin="1"/>
+      <node ref="LED76" pin="3"/>
+    </net>
+    <net code="228" name="Net-(LED74-Pad3)">
+      <node ref="LED75" pin="1"/>
+      <node ref="LED74" pin="3"/>
+    </net>
+    <net code="229" name="Net-(LED78-Pad3)">
+      <node ref="LED78" pin="3"/>
+      <node ref="LED79" pin="1"/>
+    </net>
+    <net code="230" name="Net-(LED73-Pad3)">
+      <node ref="LED73" pin="3"/>
+      <node ref="LED74" pin="1"/>
+    </net>
+    <net code="231" name="Net-(LED77-Pad3)">
+      <node ref="LED77" pin="3"/>
+      <node ref="LED78" pin="1"/>
+    </net>
+    <net code="232" name="Net-(LED72-Pad3)">
+      <node ref="LED73" pin="1"/>
+      <node ref="LED72" pin="3"/>
+    </net>
+  </nets>
+</export>
